@@ -1,0 +1,370 @@
+[12:35:52 - 07-09-2021] Updating stock
+
+[12:35:53 - 07-09-2021] 3 variations found
+
+[12:35:53 - 07-09-2021] Variation sku
+skubooster-hindbær
+
+[12:35:53 - 07-09-2021] Variation sku
+skubooster-citron
+
+[12:35:53 - 07-09-2021] Variation sku
+skubooster-normal
+
+[12:35:53 - 07-09-2021] Search string
+?sku=skubooster,skubooster-hindbær,skubooster-citron,skubooster-normal
+
+[12:35:54 - 07-09-2021] Changing stock for skubooster from 10 => 10
+
+[12:35:54 - 07-09-2021] update data
+Array
+(
+    [update] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 482
+                    [stock_quantity] => 13
+                    [backorders] => no
+                    [backorders_allowed] => 
+                    [backordered] => 
+                    [stock_status] => instock
+                )
+
+            [1] => Array
+                (
+                    [id] => 481
+                    [stock_quantity] => 7
+                    [backorders] => no
+                    [backorders_allowed] => 
+                    [backordered] => 
+                    [stock_status] => instock
+                )
+
+            [2] => Array
+                (
+                    [id] => 480
+                    [stock_quantity] => -3
+                    [backorders] => notify
+                    [backorders_allowed] => 1
+                    [backordered] => 1
+                    [stock_status] => onbackorder
+                )
+
+        )
+
+)
+
+
+[12:35:55 - 07-09-2021] Post meta
+Array
+(
+    [_sku] => Array
+        (
+            [0] => skubooster
+        )
+
+    [total_sales] => Array
+        (
+            [0] => 24
+        )
+
+    [_tax_status] => Array
+        (
+            [0] => taxable
+        )
+
+    [_tax_class] => Array
+        (
+            [0] => 
+        )
+
+    [_manage_stock] => Array
+        (
+            [0] => yes
+        )
+
+    [_backorders] => Array
+        (
+            [0] => yes
+        )
+
+    [_sold_individually] => Array
+        (
+            [0] => no
+        )
+
+    [_virtual] => Array
+        (
+            [0] => no
+        )
+
+    [_downloadable] => Array
+        (
+            [0] => no
+        )
+
+    [_download_limit] => Array
+        (
+            [0] => -1
+        )
+
+    [_download_expiry] => Array
+        (
+            [0] => -1
+        )
+
+    [_thumbnail_id] => Array
+        (
+            [0] => 478
+        )
+
+    [_stock] => Array
+        (
+            [0] => 10
+        )
+
+    [_stock_status] => Array
+        (
+            [0] => instock
+        )
+
+    [_wc_average_rating] => Array
+        (
+            [0] => 0
+        )
+
+    [_wc_review_count] => Array
+        (
+            [0] => 0
+        )
+
+    [_product_attributes] => Array
+        (
+            [0] => a:1:{s:7:"pa_smag";a:6:{s:4:"name";s:7:"pa_smag";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}}
+        )
+
+    [_product_version] => Array
+        (
+            [0] => 5.6.0
+        )
+
+    [_edit_lock] => Array
+        (
+            [0] => 1631018142:2
+        )
+
+    [_last_editor_used_jetpack] => Array
+        (
+            [0] => classic-editor
+        )
+
+    [_upsell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:11;}
+        )
+
+    [_crosssell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:34;}
+        )
+
+    [_price] => Array
+        (
+            [0] => 11.99
+            [1] => 15
+        )
+
+)
+
+
+[12:40:06 - 07-09-2021] Updating stock
+
+[12:40:06 - 07-09-2021] 3 variations found
+
+[12:40:06 - 07-09-2021] Variation sku
+skubooster-hindbær
+
+[12:40:06 - 07-09-2021] Variation sku
+skubooster-citron
+
+[12:40:06 - 07-09-2021] Variation sku
+skubooster-normal
+
+[12:40:06 - 07-09-2021] Search string
+?sku=skubooster,skubooster-hindbær,skubooster-citron,skubooster-normal
+
+[12:40:07 - 07-09-2021] Changing stock for skubooster from 10 => 10
+
+[12:40:07 - 07-09-2021] update data
+Array
+(
+    [update] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 482
+                    [stock_quantity] => 13
+                    [backorders] => no
+                    [backorders_allowed] => 
+                    [backordered] => 
+                    [stock_status] => instock
+                )
+
+            [1] => Array
+                (
+                    [id] => 481
+                    [stock_quantity] => 7
+                    [backorders] => no
+                    [backorders_allowed] => 
+                    [backordered] => 
+                    [stock_status] => instock
+                )
+
+            [2] => Array
+                (
+                    [id] => 480
+                    [stock_quantity] => -3
+                    [backorders] => notify
+                    [backorders_allowed] => 1
+                    [backordered] => 1
+                    [stock_status] => onbackorder
+                )
+
+        )
+
+)
+
+
+[12:40:08 - 07-09-2021] Post meta
+Array
+(
+    [_sku] => Array
+        (
+            [0] => skubooster
+        )
+
+    [total_sales] => Array
+        (
+            [0] => 24
+        )
+
+    [_tax_status] => Array
+        (
+            [0] => taxable
+        )
+
+    [_tax_class] => Array
+        (
+            [0] => 
+        )
+
+    [_manage_stock] => Array
+        (
+            [0] => yes
+        )
+
+    [_backorders] => Array
+        (
+            [0] => yes
+        )
+
+    [_sold_individually] => Array
+        (
+            [0] => no
+        )
+
+    [_virtual] => Array
+        (
+            [0] => no
+        )
+
+    [_downloadable] => Array
+        (
+            [0] => no
+        )
+
+    [_download_limit] => Array
+        (
+            [0] => -1
+        )
+
+    [_download_expiry] => Array
+        (
+            [0] => -1
+        )
+
+    [_thumbnail_id] => Array
+        (
+            [0] => 478
+        )
+
+    [_stock] => Array
+        (
+            [0] => 10
+        )
+
+    [_stock_status] => Array
+        (
+            [0] => instock
+        )
+
+    [_wc_average_rating] => Array
+        (
+            [0] => 0
+        )
+
+    [_wc_review_count] => Array
+        (
+            [0] => 0
+        )
+
+    [_product_attributes] => Array
+        (
+            [0] => a:1:{s:7:"pa_smag";a:6:{s:4:"name";s:7:"pa_smag";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}}
+        )
+
+    [_product_version] => Array
+        (
+            [0] => 5.6.0
+        )
+
+    [_edit_lock] => Array
+        (
+            [0] => 1631018402:2
+        )
+
+    [_last_editor_used_jetpack] => Array
+        (
+            [0] => classic-editor
+        )
+
+    [_upsell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:502;}
+        )
+
+    [_crosssell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:511;}
+        )
+
+    [_price] => Array
+        (
+            [0] => 11.99
+            [1] => 15
+        )
+
+    [_edit_last] => Array
+        (
+            [0] => 2
+        )
+
+    [_wc_gla_visibility] => Array
+        (
+            [0] => sync-and-show
+        )
+
+)
+
+

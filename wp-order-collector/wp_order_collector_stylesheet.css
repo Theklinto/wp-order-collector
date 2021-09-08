@@ -1,0 +1,4 @@
+.woocommerce ul.wc-tabs li.wp_order_collector_tab_options a::before {
+    font-family: Dashicons;
+    content: "\f13b";
+}
