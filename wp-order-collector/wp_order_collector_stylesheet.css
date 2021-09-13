@@ -2,3 +2,7 @@
     font-family: Dashicons;
     content: "\f13b";
 }
+
+.api_key_table {
+    color: blue;
+}

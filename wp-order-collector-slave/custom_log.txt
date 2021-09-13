@@ -1,30 +1,247 @@
-[12:35:52 - 07-09-2021] Updating stock
+[07:47:00 - 13-09-2021] Looking for image
 
-[12:35:53 - 07-09-2021] 3 variations found
+[07:47:00 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 80
+    [post_id] => 26
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/03/sheet.png
+)
 
-[12:35:53 - 07-09-2021] Variation sku
+
+[07:52:58 - 13-09-2021] Looking for image
+
+[07:52:58 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 80
+    [post_id] => 26
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/03/sheet.png
+)
+
+
+[08:16:28 - 13-09-2021] Looking for image
+
+[08:18:43 - 13-09-2021] Looking for image
+AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+
+[08:18:43 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6066
+    [post_id] => 531
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+)
+
+
+[08:19:36 - 13-09-2021] Looking for image
+AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+
+[08:19:36 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6066
+    [post_id] => 531
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+)
+
+
+[08:20:09 - 13-09-2021] Looking for image
+AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+
+[08:20:09 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6066
+    [post_id] => 531
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+)
+
+
+[09:22:57 - 13-09-2021] Looking for image
+AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+
+[09:22:57 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6066
+    [post_id] => 531
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+)
+
+
+[09:25:12 - 13-09-2021] Looking for image
+AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+
+[09:25:12 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6066
+    [post_id] => 531
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+)
+
+
+[09:25:38 - 13-09-2021] Looking for image
+5b6da9742bf7a1533913460.png
+
+[09:25:38 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6068
+    [post_id] => 532
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/5b6da9742bf7a1533913460.png
+)
+
+
+[09:33:07 - 13-09-2021] Looking for image
+5b6da9742bf7a1533913460.png
+
+[09:33:07 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6068
+    [post_id] => 532
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/5b6da9742bf7a1533913460.png
+)
+
+
+[09:34:04 - 13-09-2021] Looking for image
+5b6da9742bf7a1533913460.png
+
+[09:34:04 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6068
+    [post_id] => 532
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/5b6da9742bf7a1533913460.png
+)
+
+
+[09:34:53 - 13-09-2021] Looking for image
+5b6da9742bf7a1533913460.png
+
+[09:34:53 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6068
+    [post_id] => 532
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/5b6da9742bf7a1533913460.png
+)
+
+
+[09:38:45 - 13-09-2021] Looking for image
+5b6da9742bf7a1533913460.png
+
+[09:38:45 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6068
+    [post_id] => 532
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/5b6da9742bf7a1533913460.png
+)
+
+
+[09:39:12 - 13-09-2021] Looking for image
+5b6da9742bf7a1533913460.png
+
+[09:39:12 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6068
+    [post_id] => 532
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/5b6da9742bf7a1533913460.png
+)
+
+
+[09:53:56 - 13-09-2021] Looking for image
+AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+
+[09:53:56 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6066
+    [post_id] => 531
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/AA9b9mMdB5VrE6NW9ujJRskO8pjicWHWmklQKSQp-scaled-1.jpeg
+)
+
+
+[09:56:38 - 13-09-2021] Looking for image
+booster_range.jpg
+
+[09:56:38 - 13-09-2021] Results
+
+[09:57:49 - 13-09-2021] Looking for image
+booster_range.jpg
+
+[09:57:49 - 13-09-2021] Results
+
+[10:38:40 - 13-09-2021] Looking for image
+booster_range.jpg
+
+[10:38:40 - 13-09-2021] Results
+
+[10:41:33 - 13-09-2021] Looking for image
+booster_range.jpg
+
+[10:41:33 - 13-09-2021] Results
+
+[10:41:45 - 13-09-2021] Looking for image
+faxe-kondi-booster-daase.jpg
+
+[10:41:45 - 13-09-2021] Results
+
+[10:41:53 - 13-09-2021] Looking for image
+faxe-kondi-booster-twisted-lemon.jpg
+
+[10:41:53 - 13-09-2021] Results
+
+[10:42:01 - 13-09-2021] Looking for image
+IMG_0283.jpg
+
+[10:42:01 - 13-09-2021] Results
+
+[10:42:48 - 13-09-2021] Updating stock
+
+[10:42:49 - 13-09-2021] 3 variations found
+
+[10:42:49 - 13-09-2021] Variation sku
 skubooster-hindbær
 
-[12:35:53 - 07-09-2021] Variation sku
+[10:42:49 - 13-09-2021] Variation sku
 skubooster-citron
 
-[12:35:53 - 07-09-2021] Variation sku
+[10:42:49 - 13-09-2021] Variation sku
 skubooster-normal
 
-[12:35:53 - 07-09-2021] Search string
+[10:42:49 - 13-09-2021] Search string
 ?sku=skubooster,skubooster-hindbær,skubooster-citron,skubooster-normal
 
-[12:35:54 - 07-09-2021] Changing stock for skubooster from 10 => 10
+[10:42:50 - 13-09-2021] Changing stock for skubooster from 10 => 10
 
-[12:35:54 - 07-09-2021] update data
+[10:42:50 - 13-09-2021] update data
 Array
 (
     [update] => Array
         (
             [0] => Array
                 (
-                    [id] => 482
-                    [stock_quantity] => 13
+                    [id] => 542
+                    [stock_quantity] => 17
                     [backorders] => no
                     [backorders_allowed] => 
                     [backordered] => 
@@ -33,7 +250,7 @@ Array
 
             [1] => Array
                 (
-                    [id] => 481
+                    [id] => 540
                     [stock_quantity] => 7
                     [backorders] => no
                     [backorders_allowed] => 
@@ -43,7 +260,7 @@ Array
 
             [2] => Array
                 (
-                    [id] => 480
+                    [id] => 538
                     [stock_quantity] => -3
                     [backorders] => notify
                     [backorders_allowed] => 1
@@ -56,7 +273,7 @@ Array
 )
 
 
-[12:35:55 - 07-09-2021] Post meta
+[10:42:50 - 13-09-2021] Post meta
 Array
 (
     [_sku] => Array
@@ -66,7 +283,7 @@ Array
 
     [total_sales] => Array
         (
-            [0] => 24
+            [0] => 0
         )
 
     [_tax_status] => Array
@@ -116,7 +333,7 @@ Array
 
     [_thumbnail_id] => Array
         (
-            [0] => 478
+            [0] => 535
         )
 
     [_stock] => Array
@@ -149,9 +366,15 @@ Array
             [0] => 5.6.0
         )
 
+    [_price] => Array
+        (
+            [0] => 11.99
+            [1] => 15
+        )
+
     [_edit_lock] => Array
         (
-            [0] => 1631018142:2
+            [0] => 1631529764:2
         )
 
     [_last_editor_used_jetpack] => Array
@@ -159,212 +382,58 @@ Array
             [0] => classic-editor
         )
 
-    [_upsell_ids] => Array
-        (
-            [0] => a:1:{i:0;i:11;}
-        )
-
-    [_crosssell_ids] => Array
-        (
-            [0] => a:1:{i:0;i:34;}
-        )
-
-    [_price] => Array
-        (
-            [0] => 11.99
-            [1] => 15
-        )
-
 )
 
 
-[12:40:06 - 07-09-2021] Updating stock
+[10:44:32 - 13-09-2021] Looking for image
+booster_range.jpg
 
-[12:40:06 - 07-09-2021] 3 variations found
-
-[12:40:06 - 07-09-2021] Variation sku
-skubooster-hindbær
-
-[12:40:06 - 07-09-2021] Variation sku
-skubooster-citron
-
-[12:40:06 - 07-09-2021] Variation sku
-skubooster-normal
-
-[12:40:06 - 07-09-2021] Search string
-?sku=skubooster,skubooster-hindbær,skubooster-citron,skubooster-normal
-
-[12:40:07 - 07-09-2021] Changing stock for skubooster from 10 => 10
-
-[12:40:07 - 07-09-2021] update data
+[10:44:32 - 13-09-2021] Results
 Array
 (
-    [update] => Array
-        (
-            [0] => Array
-                (
-                    [id] => 482
-                    [stock_quantity] => 13
-                    [backorders] => no
-                    [backorders_allowed] => 
-                    [backordered] => 
-                    [stock_status] => instock
-                )
-
-            [1] => Array
-                (
-                    [id] => 481
-                    [stock_quantity] => 7
-                    [backorders] => no
-                    [backorders_allowed] => 
-                    [backordered] => 
-                    [stock_status] => instock
-                )
-
-            [2] => Array
-                (
-                    [id] => 480
-                    [stock_quantity] => -3
-                    [backorders] => notify
-                    [backorders_allowed] => 1
-                    [backordered] => 1
-                    [stock_status] => onbackorder
-                )
-
-        )
-
+    [meta_id] => 6129
+    [post_id] => 535
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/booster_range.jpg
 )
 
 
-[12:40:08 - 07-09-2021] Post meta
+[10:44:42 - 13-09-2021] Looking for image
+faxe-kondi-booster-daase.jpg
+
+[10:44:42 - 13-09-2021] Results
 Array
 (
-    [_sku] => Array
-        (
-            [0] => skubooster
-        )
+    [meta_id] => 6149
+    [post_id] => 537
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/faxe-kondi-booster-daase.jpg
+)
 
-    [total_sales] => Array
-        (
-            [0] => 24
-        )
 
-    [_tax_status] => Array
-        (
-            [0] => taxable
-        )
+[10:44:49 - 13-09-2021] Looking for image
+faxe-kondi-booster-twisted-lemon.jpg
 
-    [_tax_class] => Array
-        (
-            [0] => 
-        )
+[10:44:49 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6175
+    [post_id] => 539
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/faxe-kondi-booster-twisted-lemon.jpg
+)
 
-    [_manage_stock] => Array
-        (
-            [0] => yes
-        )
 
-    [_backorders] => Array
-        (
-            [0] => yes
-        )
+[10:44:50 - 13-09-2021] Looking for image
+IMG_0283.jpg
 
-    [_sold_individually] => Array
-        (
-            [0] => no
-        )
-
-    [_virtual] => Array
-        (
-            [0] => no
-        )
-
-    [_downloadable] => Array
-        (
-            [0] => no
-        )
-
-    [_download_limit] => Array
-        (
-            [0] => -1
-        )
-
-    [_download_expiry] => Array
-        (
-            [0] => -1
-        )
-
-    [_thumbnail_id] => Array
-        (
-            [0] => 478
-        )
-
-    [_stock] => Array
-        (
-            [0] => 10
-        )
-
-    [_stock_status] => Array
-        (
-            [0] => instock
-        )
-
-    [_wc_average_rating] => Array
-        (
-            [0] => 0
-        )
-
-    [_wc_review_count] => Array
-        (
-            [0] => 0
-        )
-
-    [_product_attributes] => Array
-        (
-            [0] => a:1:{s:7:"pa_smag";a:6:{s:4:"name";s:7:"pa_smag";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}}
-        )
-
-    [_product_version] => Array
-        (
-            [0] => 5.6.0
-        )
-
-    [_edit_lock] => Array
-        (
-            [0] => 1631018402:2
-        )
-
-    [_last_editor_used_jetpack] => Array
-        (
-            [0] => classic-editor
-        )
-
-    [_upsell_ids] => Array
-        (
-            [0] => a:1:{i:0;i:502;}
-        )
-
-    [_crosssell_ids] => Array
-        (
-            [0] => a:1:{i:0;i:511;}
-        )
-
-    [_price] => Array
-        (
-            [0] => 11.99
-            [1] => 15
-        )
-
-    [_edit_last] => Array
-        (
-            [0] => 2
-        )
-
-    [_wc_gla_visibility] => Array
-        (
-            [0] => sync-and-show
-        )
-
+[10:44:50 - 13-09-2021] Results
+Array
+(
+    [meta_id] => 6202
+    [post_id] => 541
+    [meta_key] => _wp_attached_file
+    [meta_value] => 2021/09/IMG_0283.jpg
 )
 
 

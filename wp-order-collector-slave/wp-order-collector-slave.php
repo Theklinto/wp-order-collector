@@ -22,6 +22,17 @@ global $wp_order_collector_table;
 global $wpdb;
 $wp_order_collector_table = "wp_order_collector";
 
+//Registering the endpoint for api order call. To check if image exist
+add_action( 'rest_api_init', function () {
+    register_rest_route( 'wc/v3', '/images/image=(?P<image>[a-zA-Z0-9-._]+)', array(
+      'methods' => 'GET',
+      'callback' => 'wp_order_collector_check_if_image_exists',
+      'permission_callback' => '__return_true'
+    ) );
+  } 
+);
+
+
 //Hooks
 register_activation_hook( __FILE__, 'wp_order_collector_activation_function' );
 register_uninstall_hook( __FILE__, 'wp_order_collector_uninstall_function' );
@@ -318,65 +329,70 @@ function update_product_stock()
         $product = $wp_order_collector_client->get("products/$page_id");
         $product = wc_sanitize_response($product);
 
-        //Retrieves all variations from client
-        $client_variations = $wp_order_collector_client->get('products/' . $product['id'] . "/variations");
-        $client_variations = wc_sanitize_response($client_variations);
-
-        custom_log(count($client_variations) . " variations found");
-
-        //Generate search string for all matching sku's
-        $variation_search_string = "?sku=" . $product['sku'];
-        foreach($client_variations as $client_variations_key => $client_variations_value)
+        //Check if product exists in main
+        $exists = wc_sanitize_response($wp_order_collector_master_client->get("products?sku=" . $product['sku']));
+        if(!empty($exists))
         {
-            $variation_search_string .= "," . $client_variations_value['sku'];
-            custom_log("Variation sku", $client_variations_value['sku']);
-        }
-
-        custom_log("Search string", $variation_search_string);
-        
-        //Retrieves all matching master variations including main product
-        $master_variations = $wp_order_collector_master_client->get('products/'. $variation_search_string);
-        $master_variations = wc_sanitize_response($master_variations);
-
-        //Generate update array for main product
-        $data = []; //empty array to put update values into
-        foreach($master_variations as $master_variations_key => $master_variations_value)
-        {
-            if($master_variations_value['sku'] == $product['sku'])
+            //Retrieves all variations from client
+            $client_variations = $wp_order_collector_client->get('products/' . $product['id'] . "/variations");
+            $client_variations = wc_sanitize_response($client_variations);
+            
+            custom_log(count($client_variations) . " variations found");
+            
+            //Generate search string for all matching sku's
+            $variation_search_string = "?sku=" . $product['sku'];
+            foreach($client_variations as $client_variations_key => $client_variations_value)
             {
-                $data = [
-                    'stock_quantity' => $master_variations_value['stock_quantity']
-                ];
+                $variation_search_string .= "," . $client_variations_value['sku'];
+                custom_log("Variation sku", $client_variations_value['sku']);
             }
-        }
-        custom_log("Changing stock for " . $product['sku'] . " from " . $product['stock_quantity'] . " => " . $data['stock_quantity']);
-        $wp_order_collector_client->put('products/' . $product['id'], $data);
-
-        //Generate batch update array for variations
-        $data = []; //emptying array to put update values into
-        foreach($client_variations as $client_variations_key => $client_variations_value)
-        {
+            
+            custom_log("Search string", $variation_search_string);
+            
+            //Retrieves all matching master variations including main product
+            $master_variations = $wp_order_collector_master_client->get('products/'. $variation_search_string);
+            $master_variations = wc_sanitize_response($master_variations);
+            
+            //Generate update array for main product
+            $data = []; //empty array to put update values into
             foreach($master_variations as $master_variations_key => $master_variations_value)
             {
-                if($client_variations_value['sku'] == $master_variations_value['sku'])
+                if($master_variations_value['sku'] == $product['sku'])
                 {
-                    array_push($data, [
-                        'id' => $client_variations_value['id'],
-                        'stock_quantity' => $master_variations_value['stock_quantity'],
-                        "backorders" => $master_variations_value['backorders'],
-                        "backorders_allowed" => $master_variations_value['backorders_allowed'],
-                        "backordered" => $master_variations_value['backordered'],
-                        "stock_status"=> $master_variations_value['stock_status']
-                    ]);
-                }   
+                    $data = [
+                    'stock_quantity' => $master_variations_value['stock_quantity']
+                    ];
+                }
             }
+            custom_log("Changing stock for " . $product['sku'] . " from " . $product['stock_quantity'] . " => " . $data['stock_quantity']);
+            $wp_order_collector_client->put('products/' . $product['id'], $data);
+        
+            //Generate batch update array for variations
+            $data = []; //emptying array to put update values into
+            foreach($client_variations as $client_variations_key => $client_variations_value)
+            {
+                foreach($master_variations as $master_variations_key => $master_variations_value)
+                {
+                    if($client_variations_value['sku'] == $master_variations_value['sku'])
+                    {
+                        array_push($data, [
+                            'id' => $client_variations_value['id'],
+                            'stock_quantity' => $master_variations_value['stock_quantity'],
+                            "backorders" => $master_variations_value['backorders'],
+                            "backorders_allowed" => $master_variations_value['backorders_allowed'],
+                            "backordered" => $master_variations_value['backordered'],
+                            "stock_status"=> $master_variations_value['stock_status']
+                        ]);
+                    }   
+                }
+            }
+            $update_data = [ 'update' => $data];
+        
+            custom_log("update data", $update_data);
+            $wp_order_collector_client->put('products/' . $product['id'] . "/variations/batch", $update_data);
+        
+            custom_log("Post meta", get_post_meta($page_id));
         }
-        $update_data = [ 'update' => $data];
-
-        custom_log("update data", $update_data);
-        $wp_order_collector_client->put('products/' . $product['id'] . "/variations/batch", $update_data);
-
-        custom_log("Post meta", get_post_meta($page_id));
     }
 }
 
@@ -496,4 +512,29 @@ function update_order_master($order_id)
         $order->update_meta_data( '_thankyou_action_done', true ); //Updates the metadata for validation check
         $order->save(); //saves the object
     }
+}
+
+function wp_order_collector_check_if_image_exists($data)
+{
+    global $wpdb;
+    $return_array = []; 
+    $image = $data['image'];
+    custom_log("Looking for image", $image);
+
+    if(!empty($image))
+    {
+        $sql = "SELECT * FROM $wpdb->postmeta WHERE meta_value LIKE '%$image%' AND meta_key = '_wp_attached_file'";
+        $result = $wpdb->get_row($sql, ARRAY_A);
+    
+        custom_log("Results", $result);
+    
+    
+        if($result !== null) //Record find, generate return array | if nothing is found, return empty array
+        {
+            $return_array = [
+                'id' => $result['post_id']
+            ];
+        }
+    }
+    return $return_array;
 }
