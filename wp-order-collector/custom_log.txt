@@ -1,0 +1,5456 @@
+[10:38:22 - 13-09-2021] Generating field for id: 
+8
+
+[10:38:22 - 13-09-2021] Generating field for id: 
+9
+
+[10:38:22 - 13-09-2021] Generating field for id: 
+14
+
+[10:38:22 - 13-09-2021] Generating field for id: 
+15
+
+[10:38:22 - 13-09-2021] Generating field for id: 
+16
+
+[10:38:22 - 13-09-2021] Generating field for id: 
+17
+
+[10:38:33 - 13-09-2021] Saving fields in post: 322
+
+[10:38:33 - 13-09-2021] Meta key updated: wp_order_collector_webshop8 -> no
+
+[10:38:33 - 13-09-2021] Meta key updated: wp_order_collector_webshop9 -> no
+
+[10:38:33 - 13-09-2021] Meta key updated: wp_order_collector_webshop14 -> no
+
+[10:38:33 - 13-09-2021] Meta key updated: wp_order_collector_webshop15 -> no
+
+[10:38:33 - 13-09-2021] Meta key updated: wp_order_collector_webshop16 -> no
+
+[10:38:33 - 13-09-2021] Meta key updated: wp_order_collector_webshop17 -> no
+
+[10:38:33 - 13-09-2021] Post
+Array
+(
+    [_edit_lock] => Array
+        (
+            [0] => 1631529502:1
+        )
+
+    [_edit_last] => Array
+        (
+            [0] => 1
+        )
+
+    [total_sales] => Array
+        (
+            [0] => 0
+        )
+
+    [_tax_status] => Array
+        (
+            [0] => taxable
+        )
+
+    [_tax_class] => Array
+        (
+            [0] => 
+        )
+
+    [_manage_stock] => Array
+        (
+            [0] => yes
+        )
+
+    [_backorders] => Array
+        (
+            [0] => yes
+        )
+
+    [_sold_individually] => Array
+        (
+            [0] => no
+        )
+
+    [_virtual] => Array
+        (
+            [0] => no
+        )
+
+    [_downloadable] => Array
+        (
+            [0] => no
+        )
+
+    [_download_limit] => Array
+        (
+            [0] => -1
+        )
+
+    [_download_expiry] => Array
+        (
+            [0] => -1
+        )
+
+    [_stock] => Array
+        (
+            [0] => 10
+        )
+
+    [_stock_status] => Array
+        (
+            [0] => instock
+        )
+
+    [_wc_average_rating] => Array
+        (
+            [0] => 0
+        )
+
+    [_wc_review_count] => Array
+        (
+            [0] => 0
+        )
+
+    [_product_attributes] => Array
+        (
+            [0] => a:1:{s:7:"pa_smag";a:6:{s:4:"name";s:7:"pa_smag";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}}
+        )
+
+    [_product_version] => Array
+        (
+            [0] => 5.5.2
+        )
+
+    [_thumbnail_id] => Array
+        (
+            [0] => 329
+        )
+
+    [wp_order_collector_webshop8] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop9] => Array
+        (
+            [0] => 
+        )
+
+    [_sku] => Array
+        (
+            [0] => skubooster
+        )
+
+    [_upsell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:11;}
+        )
+
+    [_crosssell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:34;}
+        )
+
+    [_price] => Array
+        (
+            [0] => 11.99
+            [1] => 15
+        )
+
+    [wp_order_collector_webshop10] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop11] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop12] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop13] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop14] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop15] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop16] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop17] => Array
+        (
+            [0] => 
+        )
+
+)
+
+
+[10:38:34 - 13-09-2021] All clients to alter
+Array
+(
+)
+
+[10:38:34 - 13-09-2021] Generating field for id: 
+8
+
+[10:38:34 - 13-09-2021] Generating field for id: 
+9
+
+[10:38:34 - 13-09-2021] Generating field for id: 
+14
+
+[10:38:34 - 13-09-2021] Generating field for id: 
+15
+
+[10:38:34 - 13-09-2021] Generating field for id: 
+16
+
+[10:38:34 - 13-09-2021] Generating field for id: 
+17
+
+[10:38:38 - 13-09-2021] Saving fields in post: 322
+
+[10:38:38 - 13-09-2021] Meta key updated: wp_order_collector_webshop8 -> yes
+
+[10:38:38 - 13-09-2021] Meta key updated: wp_order_collector_webshop9 -> no
+
+[10:38:38 - 13-09-2021] Meta key updated: wp_order_collector_webshop14 -> no
+
+[10:38:38 - 13-09-2021] Meta key updated: wp_order_collector_webshop15 -> no
+
+[10:38:38 - 13-09-2021] Meta key updated: wp_order_collector_webshop16 -> no
+
+[10:38:38 - 13-09-2021] Meta key updated: wp_order_collector_webshop17 -> no
+
+[10:38:38 - 13-09-2021] Post
+Array
+(
+    [_edit_lock] => Array
+        (
+            [0] => 1631529514:1
+        )
+
+    [_edit_last] => Array
+        (
+            [0] => 1
+        )
+
+    [total_sales] => Array
+        (
+            [0] => 0
+        )
+
+    [_tax_status] => Array
+        (
+            [0] => taxable
+        )
+
+    [_tax_class] => Array
+        (
+            [0] => 
+        )
+
+    [_manage_stock] => Array
+        (
+            [0] => yes
+        )
+
+    [_backorders] => Array
+        (
+            [0] => yes
+        )
+
+    [_sold_individually] => Array
+        (
+            [0] => no
+        )
+
+    [_virtual] => Array
+        (
+            [0] => no
+        )
+
+    [_downloadable] => Array
+        (
+            [0] => no
+        )
+
+    [_download_limit] => Array
+        (
+            [0] => -1
+        )
+
+    [_download_expiry] => Array
+        (
+            [0] => -1
+        )
+
+    [_stock] => Array
+        (
+            [0] => 10
+        )
+
+    [_stock_status] => Array
+        (
+            [0] => instock
+        )
+
+    [_wc_average_rating] => Array
+        (
+            [0] => 0
+        )
+
+    [_wc_review_count] => Array
+        (
+            [0] => 0
+        )
+
+    [_product_attributes] => Array
+        (
+            [0] => a:1:{s:7:"pa_smag";a:6:{s:4:"name";s:7:"pa_smag";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}}
+        )
+
+    [_product_version] => Array
+        (
+            [0] => 5.5.2
+        )
+
+    [_thumbnail_id] => Array
+        (
+            [0] => 329
+        )
+
+    [wp_order_collector_webshop8] => Array
+        (
+            [0] => yes
+        )
+
+    [wp_order_collector_webshop9] => Array
+        (
+            [0] => 
+        )
+
+    [_sku] => Array
+        (
+            [0] => skubooster
+        )
+
+    [_upsell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:11;}
+        )
+
+    [_crosssell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:34;}
+        )
+
+    [_price] => Array
+        (
+            [0] => 11.99
+            [1] => 15
+        )
+
+    [wp_order_collector_webshop10] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop11] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop12] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop13] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop14] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop15] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop16] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop17] => Array
+        (
+            [0] => 
+        )
+
+)
+
+
+[10:38:39 - 13-09-2021] Meta key found
+wp_order_collector_webshop8
+
+[10:38:39 - 13-09-2021] vaulue
+yes
+
+[10:38:39 - 13-09-2021] Client id
+Array
+(
+    [0] => 8
+)
+
+
+[10:38:39 - 13-09-2021] All clients to alter
+Array
+(
+    [0] => Automattic\WooCommerce\Client Object
+        (
+            [http] => Automattic\WooCommerce\HttpClient\HttpClient Object
+                (
+                    [ch:protected] => 
+                    [url:protected] => https://andreaslb.site/wp-json/wc/v3/
+                    [consumerKey:protected] => ck_99bebd0892ec9a722a5d4c748b1e78b15d840c52
+                    [consumerSecret:protected] => cs_ee9a48217a9abfe0d2eda8afc1095ebe5cc1421e
+                    [options:protected] => Automattic\WooCommerce\HttpClient\Options Object
+                        (
+                            [options:Automattic\WooCommerce\HttpClient\Options:private] => Array
+                                (
+                                    [wp_api] => 1
+                                    [version] => wc/v3
+                                    [timeout] => 400
+                                )
+
+                        )
+
+                    [request:Automattic\WooCommerce\HttpClient\HttpClient:private] => 
+                    [response:Automattic\WooCommerce\HttpClient\HttpClient:private] => 
+                    [responseHeaders:Automattic\WooCommerce\HttpClient\HttpClient:private] => 
+                )
+
+        )
+
+)
+
+
+[10:38:39 - 13-09-2021] Searching for image
+booster_range.jpg
+
+[10:38:40 - 13-09-2021] Product contains attributes
+
+[10:38:40 - 13-09-2021] Attributes
+Array
+(
+    [0] => Array
+        (
+            [id] => 84
+            [name] => Color
+            [slug] => pa_color
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/84
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 85
+            [name] => Længde
+            [slug] => pa_laengde
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/85
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 86
+            [name] => Smag
+            [slug] => pa_smag
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/86
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 83
+            [name] => Størrelse
+            [slug] => pa_stoerrelse
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/83
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:38:40 - 13-09-2021] Looking for attributes associated to id: 5
+
+[10:38:40 - 13-09-2021] Attributes
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [position] => 1
+    [visible] => 1
+    [variation] => 1
+    [options] => Array
+        (
+            [0] => Citron
+            [1] => Hindbær
+            [2] => Normal
+        )
+
+)
+
+
+[10:38:41 - 13-09-2021] Attributes found
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [slug] => pa_smag
+    [type] => select
+    [order_by] => menu_order
+    [has_archives] => 
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/attributes/5
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/attributes
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:38:41 - 13-09-2021] Found multiple attribues in client
+
+[10:38:41 - 13-09-2021] Matching attribute found
+Smag
+
+[10:38:42 - 13-09-2021] Master attribute terms the client doesn't have
+Array
+(
+)
+
+[10:38:43 - 13-09-2021] Searching for category: drikkevarer
+
+[10:38:43 - 13-09-2021] Found category: 
+Array
+(
+    [id] => 220
+    [name] => Drikkevarer
+    [slug] => drikkevarer
+    [parent] => 0
+    [description] => 
+    [display] => default
+    [image] => 
+    [menu_order] => 0
+    [count] => 0
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories/220
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:38:43 - 13-09-2021] Searching for category: faxe-kondi
+
+[10:38:43 - 13-09-2021] Found category: 
+Array
+(
+    [id] => 221
+    [name] => Faxe Kondi
+    [slug] => faxe-kondi
+    [parent] => 220
+    [description] => 
+    [display] => default
+    [image] => 
+    [menu_order] => 0
+    [count] => 0
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories/221
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories
+                        )
+
+                )
+
+            [up] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories/220
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:38:43 - 13-09-2021] Product before categories
+Array
+(
+    [name] => FaxeKondi Booster 0,5L
+    [slug] => faxekondi-booster-05l
+    [date_created] => 2021-09-06T14:42:10
+    [date_created_gmt] => 2021-09-06T12:42:10
+    [date_modified] => 2021-09-13T12:38:39
+    [date_modified_gmt] => 2021-09-13T10:38:39
+    [type] => variable
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>50cl dåser</p>
+
+    [short_description] => 
+    [sku] => skubooster
+    [price] => 11.99
+    [regular_price] => 
+    [sale_price] => 
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 10
+    [backorders] => yes
+    [backorders_allowed] => 1
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 1
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+            [0] => 11
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 0
+    [purchase_note] => 
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 42
+                    [name] => Drikkevarer
+                    [slug] => drikkevarer
+                )
+
+            [1] => Array
+                (
+                    [id] => 43
+                    [name] => Faxe Kondi
+                    [slug] => faxe-kondi
+                )
+
+        )
+
+    [tags] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 45
+                    [name] => Booster
+                    [slug] => booster
+                )
+
+            [1] => Array
+                (
+                    [id] => 44
+                    [name] => FaxeKondi
+                    [slug] => faxekondi
+                )
+
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 329
+                    [date_created] => 2021-09-06T16:41:16
+                    [date_created_gmt] => 2021-09-06T12:41:16
+                    [date_modified] => 2021-09-06T16:41:16
+                    [date_modified_gmt] => 2021-09-06T12:41:16
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/booster_range.jpg
+                    [name] => booster_range
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [position] => 1
+                    [visible] => 1
+                    [variation] => 1
+                    [options] => Array
+                        (
+                            [0] => Citron
+                            [1] => Hindbær
+                            [2] => Normal
+                        )
+
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+            [0] => 323
+            [1] => 324
+            [2] => 325
+        )
+
+    [menu_order] => 0
+    [stock_status] => instock
+)
+
+
+[10:38:43 - 13-09-2021] category value
+Array
+(
+    [term_id] => 42
+    [name] => Drikkevarer
+    [slug] => drikkevarer
+    [term_group] => 0
+    [term_taxonomy_id] => 42
+    [taxonomy] => product_cat
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+
+[10:38:43 - 13-09-2021] category value
+Array
+(
+    [term_id] => 43
+    [name] => Faxe Kondi
+    [slug] => faxe-kondi
+    [term_group] => 0
+    [term_taxonomy_id] => 43
+    [taxonomy] => product_cat
+    [description] => 
+    [parent] => 42
+    [count] => 1
+    [filter] => raw
+)
+
+
+[10:38:43 - 13-09-2021] Category dictionary
+Array
+(
+    [42] => Array
+        (
+            [drikkevarer] => slug
+            [0] => old_parent
+            [42] => old_id
+            [220] => new_id
+        )
+
+    [43] => Array
+        (
+            [faxe-kondi] => slug
+            [42] => old_parent
+            [43] => old_id
+            [221] => new_id
+        )
+
+)
+
+
+[10:38:43 - 13-09-2021] Update array
+Array
+(
+    [0] => Array
+        (
+            [id] => 220
+            [parent] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 221
+            [parent] => 220
+        )
+
+)
+
+
+[10:38:43 - 13-09-2021] Updating parent ids
+Array
+(
+    [0] => Array
+        (
+            [id] => 220
+            [parent] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 221
+            [parent] => 220
+        )
+
+)
+
+
+[10:38:44 - 13-09-2021] Upsells found
+
+[10:38:44 - 13-09-2021] upsell id: 11
+
+[10:38:44 - 13-09-2021] Cross sell sku
+SKU1121
+
+[10:38:44 - 13-09-2021] Client upsell
+Array
+(
+)
+
+[10:38:44 - 13-09-2021] Master meta data
+Array
+(
+    [_regular_price] => Array
+        (
+            [0] => 750
+        )
+
+    [total_sales] => Array
+        (
+            [0] => 36
+        )
+
+    [_tax_status] => Array
+        (
+            [0] => taxable
+        )
+
+    [_tax_class] => Array
+        (
+            [0] => 
+        )
+
+    [_manage_stock] => Array
+        (
+            [0] => yes
+        )
+
+    [_backorders] => Array
+        (
+            [0] => no
+        )
+
+    [_sold_individually] => Array
+        (
+            [0] => no
+        )
+
+    [_virtual] => Array
+        (
+            [0] => no
+        )
+
+    [_downloadable] => Array
+        (
+            [0] => no
+        )
+
+    [_download_limit] => Array
+        (
+            [0] => 0
+        )
+
+    [_download_expiry] => Array
+        (
+            [0] => 0
+        )
+
+    [_thumbnail_id] => Array
+        (
+            [0] => 15
+        )
+
+    [_stock_status] => Array
+        (
+            [0] => instock
+        )
+
+    [_wc_average_rating] => Array
+        (
+            [0] => 0
+        )
+
+    [_wc_review_count] => Array
+        (
+            [0] => 0
+        )
+
+    [_product_version] => Array
+        (
+            [0] => 5.5.2
+        )
+
+    [_price] => Array
+        (
+            [0] => 499
+        )
+
+    [_wpcom_is_markdown] => Array
+        (
+            [0] => 1
+        )
+
+    [_edit_lock] => Array
+        (
+            [0] => 1631013549:1
+        )
+
+    [_last_editor_used_jetpack] => Array
+        (
+            [0] => classic-editor
+        )
+
+    [_edit_last] => Array
+        (
+            [0] => 1
+        )
+
+    [_sale_price] => Array
+        (
+            [0] => 499
+        )
+
+    [_product_image_gallery] => Array
+        (
+            [0] => 14,13,12
+        )
+
+    [_sku] => Array
+        (
+            [0] => SKU1121
+        )
+
+    [_wc_gla_visibility] => Array
+        (
+            [0] => sync-and-show
+        )
+
+    [_stock] => Array
+        (
+            [0] => 20
+        )
+
+    [wp_order_collector_webshop8] => Array
+        (
+            [0] => yes
+        )
+
+)
+
+
+[10:38:44 - 13-09-2021] No matching product found
+
+[10:38:44 - 13-09-2021] Cross sells found
+
+[10:38:44 - 13-09-2021] crosssell id: 34
+
+[10:38:44 - 13-09-2021] Cross sell sku
+SKU1122
+
+[10:38:44 - 13-09-2021] No matching product found
+
+[10:38:44 - 13-09-2021] Trying to insert product
+Array
+(
+    [name] => FaxeKondi Booster 0,5L
+    [slug] => faxekondi-booster-05l
+    [date_created] => 2021-09-06T14:42:10
+    [date_created_gmt] => 2021-09-06T12:42:10
+    [date_modified] => 2021-09-13T12:38:39
+    [date_modified_gmt] => 2021-09-13T10:38:39
+    [type] => variable
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>50cl dåser</p>
+
+    [short_description] => 
+    [sku] => skubooster
+    [price] => 11.99
+    [regular_price] => 
+    [sale_price] => 
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 10
+    [backorders] => yes
+    [backorders_allowed] => 1
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 1
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+        )
+
+    [parent_id] => 0
+    [purchase_note] => 
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 220
+                    [name] => Drikkevarer
+                    [slug] => drikkevarer
+                )
+
+            [1] => Array
+                (
+                    [id] => 221
+                    [name] => Faxe Kondi
+                    [slug] => faxe-kondi
+                )
+
+        )
+
+    [tags] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 45
+                    [name] => Booster
+                    [slug] => booster
+                )
+
+            [1] => Array
+                (
+                    [id] => 44
+                    [name] => FaxeKondi
+                    [slug] => faxekondi
+                )
+
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 329
+                    [date_created] => 2021-09-06T16:41:16
+                    [date_created_gmt] => 2021-09-06T12:41:16
+                    [date_modified] => 2021-09-06T16:41:16
+                    [date_modified_gmt] => 2021-09-06T12:41:16
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/booster_range.jpg
+                    [name] => booster_range
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [position] => 1
+                    [visible] => 1
+                    [variation] => 1
+                    [options] => Array
+                        (
+                            [0] => Citron
+                            [1] => Hindbær
+                            [2] => Normal
+                        )
+
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+            [0] => 323
+            [1] => 324
+            [2] => 325
+        )
+
+    [menu_order] => 0
+    [stock_status] => instock
+)
+
+
+[10:41:25 - 13-09-2021] Generating field for id: 
+8
+
+[10:41:25 - 13-09-2021] Generating field for id: 
+9
+
+[10:41:25 - 13-09-2021] Generating field for id: 
+14
+
+[10:41:25 - 13-09-2021] Generating field for id: 
+15
+
+[10:41:25 - 13-09-2021] Generating field for id: 
+16
+
+[10:41:25 - 13-09-2021] Generating field for id: 
+17
+
+[10:41:31 - 13-09-2021] Saving fields in post: 322
+
+[10:41:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop8 -> yes
+
+[10:41:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop9 -> no
+
+[10:41:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop14 -> no
+
+[10:41:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop15 -> no
+
+[10:41:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop16 -> no
+
+[10:41:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop17 -> no
+
+[10:41:31 - 13-09-2021] Post
+Array
+(
+    [_edit_lock] => Array
+        (
+            [0] => 1631529687:1
+        )
+
+    [_edit_last] => Array
+        (
+            [0] => 1
+        )
+
+    [total_sales] => Array
+        (
+            [0] => 0
+        )
+
+    [_tax_status] => Array
+        (
+            [0] => taxable
+        )
+
+    [_tax_class] => Array
+        (
+            [0] => 
+        )
+
+    [_manage_stock] => Array
+        (
+            [0] => yes
+        )
+
+    [_backorders] => Array
+        (
+            [0] => yes
+        )
+
+    [_sold_individually] => Array
+        (
+            [0] => no
+        )
+
+    [_virtual] => Array
+        (
+            [0] => no
+        )
+
+    [_downloadable] => Array
+        (
+            [0] => no
+        )
+
+    [_download_limit] => Array
+        (
+            [0] => -1
+        )
+
+    [_download_expiry] => Array
+        (
+            [0] => -1
+        )
+
+    [_stock] => Array
+        (
+            [0] => 10
+        )
+
+    [_stock_status] => Array
+        (
+            [0] => instock
+        )
+
+    [_wc_average_rating] => Array
+        (
+            [0] => 0
+        )
+
+    [_wc_review_count] => Array
+        (
+            [0] => 0
+        )
+
+    [_product_attributes] => Array
+        (
+            [0] => a:1:{s:7:"pa_smag";a:6:{s:4:"name";s:7:"pa_smag";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}}
+        )
+
+    [_product_version] => Array
+        (
+            [0] => 5.5.2
+        )
+
+    [_thumbnail_id] => Array
+        (
+            [0] => 329
+        )
+
+    [wp_order_collector_webshop8] => Array
+        (
+            [0] => yes
+        )
+
+    [wp_order_collector_webshop9] => Array
+        (
+            [0] => 
+        )
+
+    [_sku] => Array
+        (
+            [0] => skubooster
+        )
+
+    [_upsell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:11;}
+        )
+
+    [_crosssell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:34;}
+        )
+
+    [_price] => Array
+        (
+            [0] => 11.99
+            [1] => 15
+        )
+
+    [wp_order_collector_webshop10] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop11] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop12] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop13] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop14] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop15] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop16] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop17] => Array
+        (
+            [0] => 
+        )
+
+)
+
+
+[10:41:32 - 13-09-2021] Meta key found
+wp_order_collector_webshop8
+
+[10:41:32 - 13-09-2021] vaulue
+yes
+
+[10:41:32 - 13-09-2021] Client id
+Array
+(
+    [0] => 8
+)
+
+
+[10:41:32 - 13-09-2021] All clients to alter
+Array
+(
+    [0] => Automattic\WooCommerce\Client Object
+        (
+            [http] => Automattic\WooCommerce\HttpClient\HttpClient Object
+                (
+                    [ch:protected] => 
+                    [url:protected] => https://andreaslb.site/wp-json/wc/v3/
+                    [consumerKey:protected] => ck_99bebd0892ec9a722a5d4c748b1e78b15d840c52
+                    [consumerSecret:protected] => cs_ee9a48217a9abfe0d2eda8afc1095ebe5cc1421e
+                    [options:protected] => Automattic\WooCommerce\HttpClient\Options Object
+                        (
+                            [options:Automattic\WooCommerce\HttpClient\Options:private] => Array
+                                (
+                                    [wp_api] => 1
+                                    [version] => wc/v3
+                                    [timeout] => 400
+                                )
+
+                        )
+
+                    [request:Automattic\WooCommerce\HttpClient\HttpClient:private] => 
+                    [response:Automattic\WooCommerce\HttpClient\HttpClient:private] => 
+                    [responseHeaders:Automattic\WooCommerce\HttpClient\HttpClient:private] => 
+                )
+
+        )
+
+)
+
+
+[10:41:32 - 13-09-2021] Searching for image
+booster_range.jpg
+
+[10:41:33 - 13-09-2021] Image not found
+
+[10:41:33 - 13-09-2021] Product contains attributes
+
+[10:41:33 - 13-09-2021] Attributes
+Array
+(
+    [0] => Array
+        (
+            [id] => 84
+            [name] => Color
+            [slug] => pa_color
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/84
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 85
+            [name] => Længde
+            [slug] => pa_laengde
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/85
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 86
+            [name] => Smag
+            [slug] => pa_smag
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/86
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 83
+            [name] => Størrelse
+            [slug] => pa_stoerrelse
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/83
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:41:33 - 13-09-2021] Looking for attributes associated to id: 5
+
+[10:41:33 - 13-09-2021] Attributes
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [position] => 1
+    [visible] => 1
+    [variation] => 1
+    [options] => Array
+        (
+            [0] => Citron
+            [1] => Hindbær
+            [2] => Normal
+        )
+
+)
+
+
+[10:41:33 - 13-09-2021] Attributes found
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [slug] => pa_smag
+    [type] => select
+    [order_by] => menu_order
+    [has_archives] => 
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/attributes/5
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/attributes
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:41:33 - 13-09-2021] Found multiple attribues in client
+
+[10:41:33 - 13-09-2021] Matching attribute found
+Smag
+
+[10:41:34 - 13-09-2021] Master attribute terms the client doesn't have
+Array
+(
+)
+
+[10:41:34 - 13-09-2021] Searching for category: drikkevarer
+
+[10:41:34 - 13-09-2021] Found category: 
+Array
+(
+    [id] => 220
+    [name] => Drikkevarer
+    [slug] => drikkevarer
+    [parent] => 0
+    [description] => 
+    [display] => default
+    [image] => 
+    [menu_order] => 0
+    [count] => 0
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories/220
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:41:34 - 13-09-2021] Searching for category: faxe-kondi
+
+[10:41:34 - 13-09-2021] Found category: 
+Array
+(
+    [id] => 221
+    [name] => Faxe Kondi
+    [slug] => faxe-kondi
+    [parent] => 220
+    [description] => 
+    [display] => default
+    [image] => 
+    [menu_order] => 0
+    [count] => 0
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories/221
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories
+                        )
+
+                )
+
+            [up] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories/220
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:41:34 - 13-09-2021] Product before categories
+Array
+(
+    [name] => FaxeKondi Booster 0,5L
+    [slug] => faxekondi-booster-05l
+    [date_created] => 2021-09-06T14:42:10
+    [date_created_gmt] => 2021-09-06T12:42:10
+    [date_modified] => 2021-09-13T12:41:31
+    [date_modified_gmt] => 2021-09-13T10:41:31
+    [type] => variable
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>50cl dåser</p>
+
+    [short_description] => 
+    [sku] => skubooster
+    [price] => 11.99
+    [regular_price] => 
+    [sale_price] => 
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 10
+    [backorders] => yes
+    [backorders_allowed] => 1
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 1
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+            [0] => 11
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 0
+    [purchase_note] => 
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 42
+                    [name] => Drikkevarer
+                    [slug] => drikkevarer
+                )
+
+            [1] => Array
+                (
+                    [id] => 43
+                    [name] => Faxe Kondi
+                    [slug] => faxe-kondi
+                )
+
+        )
+
+    [tags] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 45
+                    [name] => Booster
+                    [slug] => booster
+                )
+
+            [1] => Array
+                (
+                    [id] => 44
+                    [name] => FaxeKondi
+                    [slug] => faxekondi
+                )
+
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/booster_range.jpg
+                    [name] => booster_range
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [position] => 1
+                    [visible] => 1
+                    [variation] => 1
+                    [options] => Array
+                        (
+                            [0] => Citron
+                            [1] => Hindbær
+                            [2] => Normal
+                        )
+
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+            [0] => 323
+            [1] => 324
+            [2] => 325
+        )
+
+    [menu_order] => 0
+    [stock_status] => instock
+)
+
+
+[10:41:34 - 13-09-2021] category value
+Array
+(
+    [term_id] => 42
+    [name] => Drikkevarer
+    [slug] => drikkevarer
+    [term_group] => 0
+    [term_taxonomy_id] => 42
+    [taxonomy] => product_cat
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+
+[10:41:34 - 13-09-2021] category value
+Array
+(
+    [term_id] => 43
+    [name] => Faxe Kondi
+    [slug] => faxe-kondi
+    [term_group] => 0
+    [term_taxonomy_id] => 43
+    [taxonomy] => product_cat
+    [description] => 
+    [parent] => 42
+    [count] => 1
+    [filter] => raw
+)
+
+
+[10:41:34 - 13-09-2021] Category dictionary
+Array
+(
+    [42] => Array
+        (
+            [drikkevarer] => slug
+            [0] => old_parent
+            [42] => old_id
+            [220] => new_id
+        )
+
+    [43] => Array
+        (
+            [faxe-kondi] => slug
+            [42] => old_parent
+            [43] => old_id
+            [221] => new_id
+        )
+
+)
+
+
+[10:41:34 - 13-09-2021] Update array
+Array
+(
+    [0] => Array
+        (
+            [id] => 220
+            [parent] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 221
+            [parent] => 220
+        )
+
+)
+
+
+[10:41:34 - 13-09-2021] Updating parent ids
+Array
+(
+    [0] => Array
+        (
+            [id] => 220
+            [parent] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 221
+            [parent] => 220
+        )
+
+)
+
+
+[10:41:35 - 13-09-2021] Upsells found
+
+[10:41:35 - 13-09-2021] upsell id: 11
+
+[10:41:35 - 13-09-2021] Cross sell sku
+SKU1121
+
+[10:41:35 - 13-09-2021] Client upsell
+Array
+(
+)
+
+[10:41:35 - 13-09-2021] Master meta data
+Array
+(
+    [_regular_price] => Array
+        (
+            [0] => 750
+        )
+
+    [total_sales] => Array
+        (
+            [0] => 36
+        )
+
+    [_tax_status] => Array
+        (
+            [0] => taxable
+        )
+
+    [_tax_class] => Array
+        (
+            [0] => 
+        )
+
+    [_manage_stock] => Array
+        (
+            [0] => yes
+        )
+
+    [_backorders] => Array
+        (
+            [0] => no
+        )
+
+    [_sold_individually] => Array
+        (
+            [0] => no
+        )
+
+    [_virtual] => Array
+        (
+            [0] => no
+        )
+
+    [_downloadable] => Array
+        (
+            [0] => no
+        )
+
+    [_download_limit] => Array
+        (
+            [0] => 0
+        )
+
+    [_download_expiry] => Array
+        (
+            [0] => 0
+        )
+
+    [_thumbnail_id] => Array
+        (
+            [0] => 15
+        )
+
+    [_stock_status] => Array
+        (
+            [0] => instock
+        )
+
+    [_wc_average_rating] => Array
+        (
+            [0] => 0
+        )
+
+    [_wc_review_count] => Array
+        (
+            [0] => 0
+        )
+
+    [_product_version] => Array
+        (
+            [0] => 5.5.2
+        )
+
+    [_price] => Array
+        (
+            [0] => 499
+        )
+
+    [_wpcom_is_markdown] => Array
+        (
+            [0] => 1
+        )
+
+    [_edit_lock] => Array
+        (
+            [0] => 1631013549:1
+        )
+
+    [_last_editor_used_jetpack] => Array
+        (
+            [0] => classic-editor
+        )
+
+    [_edit_last] => Array
+        (
+            [0] => 1
+        )
+
+    [_sale_price] => Array
+        (
+            [0] => 499
+        )
+
+    [_product_image_gallery] => Array
+        (
+            [0] => 14,13,12
+        )
+
+    [_sku] => Array
+        (
+            [0] => SKU1121
+        )
+
+    [_wc_gla_visibility] => Array
+        (
+            [0] => sync-and-show
+        )
+
+    [_stock] => Array
+        (
+            [0] => 20
+        )
+
+    [wp_order_collector_webshop8] => Array
+        (
+            [0] => yes
+        )
+
+)
+
+
+[10:41:35 - 13-09-2021] No matching product found
+
+[10:41:35 - 13-09-2021] Cross sells found
+
+[10:41:35 - 13-09-2021] crosssell id: 34
+
+[10:41:35 - 13-09-2021] Cross sell sku
+SKU1122
+
+[10:41:36 - 13-09-2021] No matching product found
+
+[10:41:36 - 13-09-2021] Trying to insert product
+Array
+(
+    [name] => FaxeKondi Booster 0,5L
+    [slug] => faxekondi-booster-05l
+    [date_created] => 2021-09-06T14:42:10
+    [date_created_gmt] => 2021-09-06T12:42:10
+    [date_modified] => 2021-09-13T12:41:31
+    [date_modified_gmt] => 2021-09-13T10:41:31
+    [type] => variable
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>50cl dåser</p>
+
+    [short_description] => 
+    [sku] => skubooster
+    [price] => 11.99
+    [regular_price] => 
+    [sale_price] => 
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 10
+    [backorders] => yes
+    [backorders_allowed] => 1
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 1
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+        )
+
+    [parent_id] => 0
+    [purchase_note] => 
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 220
+                    [name] => Drikkevarer
+                    [slug] => drikkevarer
+                )
+
+            [1] => Array
+                (
+                    [id] => 221
+                    [name] => Faxe Kondi
+                    [slug] => faxe-kondi
+                )
+
+        )
+
+    [tags] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 45
+                    [name] => Booster
+                    [slug] => booster
+                )
+
+            [1] => Array
+                (
+                    [id] => 44
+                    [name] => FaxeKondi
+                    [slug] => faxekondi
+                )
+
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/booster_range.jpg
+                    [name] => booster_range
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [position] => 1
+                    [visible] => 1
+                    [variation] => 1
+                    [options] => Array
+                        (
+                            [0] => Citron
+                            [1] => Hindbær
+                            [2] => Normal
+                        )
+
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+            [0] => 323
+            [1] => 324
+            [2] => 325
+        )
+
+    [menu_order] => 0
+    [stock_status] => instock
+)
+
+
+[10:41:44 - 13-09-2021] Product created!
+
+[10:41:44 - 13-09-2021] Added attributes
+Array
+(
+    [0] => Array
+        (
+            [name] => Smag
+            [id] => 86
+        )
+
+)
+
+
+[10:41:44 - 13-09-2021] Found variations
+
+[10:41:44 - 13-09-2021] Adding variation id: 323
+
+[10:41:44 - 13-09-2021] Found variation
+Array
+(
+    [id] => 323
+    [name] => FaxeKondi Booster 0,5L - Normal
+    [slug] => faxekondi-booster-05l-normal
+    [permalink] => https://klinthansen.dk/vare/faxekondi-booster-05l/?attribute_pa_smag=normal
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-07T11:35:36
+    [date_modified_gmt] => 2021-09-07T09:35:36
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>Med normal smag</p>
+
+    [short_description] => 
+    [sku] => skubooster-normal
+    [price] => 15
+    [regular_price] => 20
+    [sale_price] => 15
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => -3
+    [backorders] => notify
+    [backorders_allowed] => 1
+    [backordered] => 1
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.5
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 322
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 328
+                    [date_created] => 2021-09-06T16:40:47
+                    [date_created_gmt] => 2021-09-06T12:40:47
+                    [date_modified] => 2021-09-06T16:40:47
+                    [date_modified_gmt] => 2021-09-06T12:40:47
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/faxe-kondi-booster-daase.jpg
+                    [name] => faxe-kondi-booster-daase
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Smag
+                    [option] => Normal
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [grouped_products] => Array
+        (
+        )
+
+    [menu_order] => 1
+    [price_html] => <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;20,00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;15,00</bdi></span></ins>
+    [related_ids] => Array
+        (
+        )
+
+    [meta_data] => Array
+        (
+        )
+
+    [stock_status] => onbackorder
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/323
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products
+                        )
+
+                )
+
+            [up] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/322
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:41:45 - 13-09-2021] attribute:
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [option] => Normal
+)
+
+
+[10:41:45 - 13-09-2021] Seraching for: Smag
+
+[10:41:45 - 13-09-2021] Found attribute: Smag
+
+[10:41:45 - 13-09-2021] Changed variation attribute: Smag
+ from id: 5 to id: 86
+
+[10:41:45 - 13-09-2021] New attribute
+Array
+(
+    [id] => 86
+    [name] => Smag
+    [option] => Normal
+)
+
+
+[10:41:45 - 13-09-2021] Variation to insert
+Array
+(
+    [name] => FaxeKondi Booster 0,5L - Normal
+    [slug] => faxekondi-booster-05l-normal
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-07T11:35:36
+    [date_modified_gmt] => 2021-09-07T09:35:36
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>Med normal smag</p>
+
+    [short_description] => 
+    [sku] => skubooster-normal
+    [price] => 15
+    [regular_price] => 20
+    [sale_price] => 15
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => -3
+    [backorders] => notify
+    [backorders_allowed] => 1
+    [backordered] => 1
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.5
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 536
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [option] => Normal
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [menu_order] => 1
+    [stock_status] => onbackorder
+    [image] => Array
+        (
+            [src] => https://klinthansen.dk/wp-content/uploads/2021/09/faxe-kondi-booster-daase.jpg
+            [alt] => 
+            [name] => faxe-kondi-booster-daase
+        )
+
+)
+
+
+[10:41:52 - 13-09-2021] Adding variation id: 324
+
+[10:41:53 - 13-09-2021] Found variation
+Array
+(
+    [id] => 324
+    [name] => FaxeKondi Booster 0,5L - Citron
+    [slug] => faxekondi-booster-05l-citron
+    [permalink] => https://klinthansen.dk/vare/faxekondi-booster-05l/?attribute_pa_smag=citron
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-07T11:44:10
+    [date_modified_gmt] => 2021-09-07T09:44:10
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>med citrus smag</p>
+
+    [short_description] => 
+    [sku] => skubooster-citron
+    [price] => 11.99
+    [regular_price] => 20
+    [sale_price] => 11.99
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 7
+    [backorders] => no
+    [backorders_allowed] => 
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.5
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 322
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 326
+                    [date_created] => 2021-09-06T16:40:44
+                    [date_created_gmt] => 2021-09-06T12:40:44
+                    [date_modified] => 2021-09-06T16:40:44
+                    [date_modified_gmt] => 2021-09-06T12:40:44
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/faxe-kondi-booster-twisted-lemon.jpg
+                    [name] => faxe-kondi-booster-twisted-lemon
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Smag
+                    [option] => Citron
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [grouped_products] => Array
+        (
+        )
+
+    [menu_order] => 2
+    [price_html] => <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;20,00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;11,99</bdi></span></ins>
+    [related_ids] => Array
+        (
+        )
+
+    [meta_data] => Array
+        (
+        )
+
+    [stock_status] => instock
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/324
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products
+                        )
+
+                )
+
+            [up] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/322
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:41:53 - 13-09-2021] attribute:
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [option] => Citron
+)
+
+
+[10:41:53 - 13-09-2021] Seraching for: Smag
+
+[10:41:53 - 13-09-2021] Found attribute: Smag
+
+[10:41:53 - 13-09-2021] Changed variation attribute: Smag
+ from id: 5 to id: 86
+
+[10:41:53 - 13-09-2021] New attribute
+Array
+(
+    [id] => 86
+    [name] => Smag
+    [option] => Citron
+)
+
+
+[10:41:53 - 13-09-2021] Variation to insert
+Array
+(
+    [name] => FaxeKondi Booster 0,5L - Citron
+    [slug] => faxekondi-booster-05l-citron
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-07T11:44:10
+    [date_modified_gmt] => 2021-09-07T09:44:10
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>med citrus smag</p>
+
+    [short_description] => 
+    [sku] => skubooster-citron
+    [price] => 11.99
+    [regular_price] => 20
+    [sale_price] => 11.99
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 7
+    [backorders] => no
+    [backorders_allowed] => 
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.5
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 536
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [option] => Citron
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [menu_order] => 2
+    [stock_status] => instock
+    [image] => Array
+        (
+            [src] => https://klinthansen.dk/wp-content/uploads/2021/09/faxe-kondi-booster-twisted-lemon.jpg
+            [alt] => 
+            [name] => faxe-kondi-booster-twisted-lemon
+        )
+
+)
+
+
+[10:42:00 - 13-09-2021] Adding variation id: 325
+
+[10:42:00 - 13-09-2021] Found variation
+Array
+(
+    [id] => 325
+    [name] => FaxeKondi Booster 0,5L - Hindbær
+    [slug] => faxekondi-booster-05l-hindbaer
+    [permalink] => https://klinthansen.dk/vare/faxekondi-booster-05l/?attribute_pa_smag=hindbaer
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-08T12:44:13
+    [date_modified_gmt] => 2021-09-08T10:44:13
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => 
+    [short_description] => 
+    [sku] => skubooster-hindbær
+    [price] => 15
+    [regular_price] => 20
+    [sale_price] => 15
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 17
+    [backorders] => no
+    [backorders_allowed] => 
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.3
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 322
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 327
+                    [date_created] => 2021-09-06T16:40:44
+                    [date_created_gmt] => 2021-09-06T12:40:44
+                    [date_modified] => 2021-09-06T16:40:44
+                    [date_modified_gmt] => 2021-09-06T12:40:44
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/IMG_0283.jpg
+                    [name] => IMG_0283
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Smag
+                    [option] => Hindbær
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [grouped_products] => Array
+        (
+        )
+
+    [menu_order] => 3
+    [price_html] => <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;20,00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;15,00</bdi></span></ins>
+    [related_ids] => Array
+        (
+        )
+
+    [meta_data] => Array
+        (
+        )
+
+    [stock_status] => instock
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/325
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products
+                        )
+
+                )
+
+            [up] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/322
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:42:01 - 13-09-2021] attribute:
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [option] => Hindbær
+)
+
+
+[10:42:01 - 13-09-2021] Seraching for: Smag
+
+[10:42:01 - 13-09-2021] Found attribute: Smag
+
+[10:42:01 - 13-09-2021] Changed variation attribute: Smag
+ from id: 5 to id: 86
+
+[10:42:01 - 13-09-2021] New attribute
+Array
+(
+    [id] => 86
+    [name] => Smag
+    [option] => Hindbær
+)
+
+
+[10:42:01 - 13-09-2021] Variation to insert
+Array
+(
+    [name] => FaxeKondi Booster 0,5L - Hindbær
+    [slug] => faxekondi-booster-05l-hindbaer
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-08T12:44:13
+    [date_modified_gmt] => 2021-09-08T10:44:13
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => 
+    [short_description] => 
+    [sku] => skubooster-hindbær
+    [price] => 15
+    [regular_price] => 20
+    [sale_price] => 15
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 17
+    [backorders] => no
+    [backorders_allowed] => 
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.3
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 536
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [option] => Hindbær
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [menu_order] => 3
+    [stock_status] => instock
+    [image] => Array
+        (
+            [src] => https://klinthansen.dk/wp-content/uploads/2021/09/IMG_0283.jpg
+            [alt] => 
+            [name] => IMG_0283
+        )
+
+)
+
+
+[10:42:13 - 13-09-2021] All variations
+Array
+(
+    [0] => Array
+        (
+            [0] => 536
+        )
+
+    [1] => Array
+        (
+            [0] => 538
+        )
+
+    [2] => Array
+        (
+            [0] => 540
+        )
+
+    [3] => Array
+        (
+            [0] => 542
+        )
+
+)
+
+
+[10:42:16 - 13-09-2021] Generating field for id: 
+8
+
+[10:42:16 - 13-09-2021] Generating field for id: 
+9
+
+[10:42:16 - 13-09-2021] Generating field for id: 
+14
+
+[10:42:16 - 13-09-2021] Generating field for id: 
+15
+
+[10:42:16 - 13-09-2021] Generating field for id: 
+16
+
+[10:42:16 - 13-09-2021] Generating field for id: 
+17
+
+[10:44:31 - 13-09-2021] Saving fields in post: 322
+
+[10:44:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop8 -> yes
+
+[10:44:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop9 -> no
+
+[10:44:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop14 -> no
+
+[10:44:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop15 -> no
+
+[10:44:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop16 -> no
+
+[10:44:31 - 13-09-2021] Meta key updated: wp_order_collector_webshop17 -> no
+
+[10:44:31 - 13-09-2021] Post
+Array
+(
+    [_edit_lock] => Array
+        (
+            [0] => 1631529868:1
+        )
+
+    [_edit_last] => Array
+        (
+            [0] => 1
+        )
+
+    [total_sales] => Array
+        (
+            [0] => 0
+        )
+
+    [_tax_status] => Array
+        (
+            [0] => taxable
+        )
+
+    [_tax_class] => Array
+        (
+            [0] => 
+        )
+
+    [_manage_stock] => Array
+        (
+            [0] => yes
+        )
+
+    [_backorders] => Array
+        (
+            [0] => yes
+        )
+
+    [_sold_individually] => Array
+        (
+            [0] => no
+        )
+
+    [_virtual] => Array
+        (
+            [0] => no
+        )
+
+    [_downloadable] => Array
+        (
+            [0] => no
+        )
+
+    [_download_limit] => Array
+        (
+            [0] => -1
+        )
+
+    [_download_expiry] => Array
+        (
+            [0] => -1
+        )
+
+    [_stock] => Array
+        (
+            [0] => 10
+        )
+
+    [_stock_status] => Array
+        (
+            [0] => instock
+        )
+
+    [_wc_average_rating] => Array
+        (
+            [0] => 0
+        )
+
+    [_wc_review_count] => Array
+        (
+            [0] => 0
+        )
+
+    [_product_attributes] => Array
+        (
+            [0] => a:1:{s:7:"pa_smag";a:6:{s:4:"name";s:7:"pa_smag";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:1;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}}
+        )
+
+    [_product_version] => Array
+        (
+            [0] => 5.5.2
+        )
+
+    [_thumbnail_id] => Array
+        (
+            [0] => 329
+        )
+
+    [wp_order_collector_webshop8] => Array
+        (
+            [0] => yes
+        )
+
+    [wp_order_collector_webshop9] => Array
+        (
+            [0] => 
+        )
+
+    [_sku] => Array
+        (
+            [0] => skubooster
+        )
+
+    [_upsell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:11;}
+        )
+
+    [_crosssell_ids] => Array
+        (
+            [0] => a:1:{i:0;i:34;}
+        )
+
+    [_price] => Array
+        (
+            [0] => 11.99
+            [1] => 15
+        )
+
+    [wp_order_collector_webshop10] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop11] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop12] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop13] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop14] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop15] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop16] => Array
+        (
+            [0] => 
+        )
+
+    [wp_order_collector_webshop17] => Array
+        (
+            [0] => 
+        )
+
+)
+
+
+[10:44:31 - 13-09-2021] Meta key found
+wp_order_collector_webshop8
+
+[10:44:31 - 13-09-2021] vaulue
+yes
+
+[10:44:31 - 13-09-2021] Client id
+Array
+(
+    [0] => 8
+)
+
+
+[10:44:31 - 13-09-2021] All clients to alter
+Array
+(
+    [0] => Automattic\WooCommerce\Client Object
+        (
+            [http] => Automattic\WooCommerce\HttpClient\HttpClient Object
+                (
+                    [ch:protected] => 
+                    [url:protected] => https://andreaslb.site/wp-json/wc/v3/
+                    [consumerKey:protected] => ck_99bebd0892ec9a722a5d4c748b1e78b15d840c52
+                    [consumerSecret:protected] => cs_ee9a48217a9abfe0d2eda8afc1095ebe5cc1421e
+                    [options:protected] => Automattic\WooCommerce\HttpClient\Options Object
+                        (
+                            [options:Automattic\WooCommerce\HttpClient\Options:private] => Array
+                                (
+                                    [wp_api] => 1
+                                    [version] => wc/v3
+                                    [timeout] => 400
+                                )
+
+                        )
+
+                    [request:Automattic\WooCommerce\HttpClient\HttpClient:private] => 
+                    [response:Automattic\WooCommerce\HttpClient\HttpClient:private] => 
+                    [responseHeaders:Automattic\WooCommerce\HttpClient\HttpClient:private] => 
+                )
+
+        )
+
+)
+
+
+[10:44:32 - 13-09-2021] Searching for image
+booster_range.jpg
+
+[10:44:32 - 13-09-2021] Found image
+Array
+(
+    [id] => 535
+)
+
+
+[10:44:32 - 13-09-2021] Image formatted
+Array
+(
+    [id] => 535
+)
+
+
+[10:44:32 - 13-09-2021] Product contains attributes
+
+[10:44:33 - 13-09-2021] Attributes
+Array
+(
+    [0] => Array
+        (
+            [id] => 84
+            [name] => Color
+            [slug] => pa_color
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/84
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 85
+            [name] => Længde
+            [slug] => pa_laengde
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/85
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 86
+            [name] => Smag
+            [slug] => pa_smag
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/86
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 83
+            [name] => Størrelse
+            [slug] => pa_stoerrelse
+            [type] => select
+            [order_by] => menu_order
+            [has_archives] => 
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes/83
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/attributes
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:44:33 - 13-09-2021] Looking for attributes associated to id: 5
+
+[10:44:33 - 13-09-2021] Attributes
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [position] => 1
+    [visible] => 1
+    [variation] => 1
+    [options] => Array
+        (
+            [0] => Citron
+            [1] => Hindbær
+            [2] => Normal
+        )
+
+)
+
+
+[10:44:33 - 13-09-2021] Attributes found
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [slug] => pa_smag
+    [type] => select
+    [order_by] => menu_order
+    [has_archives] => 
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/attributes/5
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/attributes
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:44:33 - 13-09-2021] Found multiple attribues in client
+
+[10:44:33 - 13-09-2021] Matching attribute found
+Smag
+
+[10:44:34 - 13-09-2021] Master attribute terms the client doesn't have
+Array
+(
+)
+
+[10:44:34 - 13-09-2021] Searching for category: drikkevarer
+
+[10:44:34 - 13-09-2021] Found category: 
+Array
+(
+    [id] => 220
+    [name] => Drikkevarer
+    [slug] => drikkevarer
+    [parent] => 0
+    [description] => 
+    [display] => default
+    [image] => 
+    [menu_order] => 0
+    [count] => 0
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories/220
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:44:34 - 13-09-2021] Searching for category: faxe-kondi
+
+[10:44:34 - 13-09-2021] Found category: 
+Array
+(
+    [id] => 221
+    [name] => Faxe Kondi
+    [slug] => faxe-kondi
+    [parent] => 220
+    [description] => 
+    [display] => default
+    [image] => 
+    [menu_order] => 0
+    [count] => 0
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories/221
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories
+                        )
+
+                )
+
+            [up] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://andreaslb.site/index.php/wp-json/wc/v3/products/categories/220
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:44:34 - 13-09-2021] Product before categories
+Array
+(
+    [name] => FaxeKondi Booster 0,5L
+    [slug] => faxekondi-booster-05l
+    [date_created] => 2021-09-06T14:42:10
+    [date_created_gmt] => 2021-09-06T12:42:10
+    [date_modified] => 2021-09-13T12:44:31
+    [date_modified_gmt] => 2021-09-13T10:44:31
+    [type] => variable
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>50cl dåser</p>
+
+    [short_description] => 
+    [sku] => skubooster
+    [price] => 11.99
+    [regular_price] => 
+    [sale_price] => 
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 10
+    [backorders] => yes
+    [backorders_allowed] => 1
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 1
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+            [0] => 11
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 0
+    [purchase_note] => 
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 42
+                    [name] => Drikkevarer
+                    [slug] => drikkevarer
+                )
+
+            [1] => Array
+                (
+                    [id] => 43
+                    [name] => Faxe Kondi
+                    [slug] => faxe-kondi
+                )
+
+        )
+
+    [tags] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 45
+                    [name] => Booster
+                    [slug] => booster
+                )
+
+            [1] => Array
+                (
+                    [id] => 44
+                    [name] => FaxeKondi
+                    [slug] => faxekondi
+                )
+
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 535
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [position] => 1
+                    [visible] => 1
+                    [variation] => 1
+                    [options] => Array
+                        (
+                            [0] => Citron
+                            [1] => Hindbær
+                            [2] => Normal
+                        )
+
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+            [0] => 323
+            [1] => 324
+            [2] => 325
+        )
+
+    [menu_order] => 0
+    [stock_status] => instock
+)
+
+
+[10:44:34 - 13-09-2021] category value
+Array
+(
+    [term_id] => 42
+    [name] => Drikkevarer
+    [slug] => drikkevarer
+    [term_group] => 0
+    [term_taxonomy_id] => 42
+    [taxonomy] => product_cat
+    [description] => 
+    [parent] => 0
+    [count] => 1
+    [filter] => raw
+)
+
+
+[10:44:34 - 13-09-2021] category value
+Array
+(
+    [term_id] => 43
+    [name] => Faxe Kondi
+    [slug] => faxe-kondi
+    [term_group] => 0
+    [term_taxonomy_id] => 43
+    [taxonomy] => product_cat
+    [description] => 
+    [parent] => 42
+    [count] => 1
+    [filter] => raw
+)
+
+
+[10:44:34 - 13-09-2021] Category dictionary
+Array
+(
+    [42] => Array
+        (
+            [drikkevarer] => slug
+            [0] => old_parent
+            [42] => old_id
+            [220] => new_id
+        )
+
+    [43] => Array
+        (
+            [faxe-kondi] => slug
+            [42] => old_parent
+            [43] => old_id
+            [221] => new_id
+        )
+
+)
+
+
+[10:44:34 - 13-09-2021] Update array
+Array
+(
+    [0] => Array
+        (
+            [id] => 220
+            [parent] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 221
+            [parent] => 220
+        )
+
+)
+
+
+[10:44:34 - 13-09-2021] Updating parent ids
+Array
+(
+    [0] => Array
+        (
+            [id] => 220
+            [parent] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 221
+            [parent] => 220
+        )
+
+)
+
+
+[10:44:35 - 13-09-2021] Upsells found
+
+[10:44:35 - 13-09-2021] upsell id: 11
+
+[10:44:35 - 13-09-2021] Cross sell sku
+SKU1121
+
+[10:44:36 - 13-09-2021] Client upsell
+Array
+(
+)
+
+[10:44:36 - 13-09-2021] Master meta data
+Array
+(
+    [_regular_price] => Array
+        (
+            [0] => 750
+        )
+
+    [total_sales] => Array
+        (
+            [0] => 36
+        )
+
+    [_tax_status] => Array
+        (
+            [0] => taxable
+        )
+
+    [_tax_class] => Array
+        (
+            [0] => 
+        )
+
+    [_manage_stock] => Array
+        (
+            [0] => yes
+        )
+
+    [_backorders] => Array
+        (
+            [0] => no
+        )
+
+    [_sold_individually] => Array
+        (
+            [0] => no
+        )
+
+    [_virtual] => Array
+        (
+            [0] => no
+        )
+
+    [_downloadable] => Array
+        (
+            [0] => no
+        )
+
+    [_download_limit] => Array
+        (
+            [0] => 0
+        )
+
+    [_download_expiry] => Array
+        (
+            [0] => 0
+        )
+
+    [_thumbnail_id] => Array
+        (
+            [0] => 15
+        )
+
+    [_stock_status] => Array
+        (
+            [0] => instock
+        )
+
+    [_wc_average_rating] => Array
+        (
+            [0] => 0
+        )
+
+    [_wc_review_count] => Array
+        (
+            [0] => 0
+        )
+
+    [_product_version] => Array
+        (
+            [0] => 5.5.2
+        )
+
+    [_price] => Array
+        (
+            [0] => 499
+        )
+
+    [_wpcom_is_markdown] => Array
+        (
+            [0] => 1
+        )
+
+    [_edit_lock] => Array
+        (
+            [0] => 1631013549:1
+        )
+
+    [_last_editor_used_jetpack] => Array
+        (
+            [0] => classic-editor
+        )
+
+    [_edit_last] => Array
+        (
+            [0] => 1
+        )
+
+    [_sale_price] => Array
+        (
+            [0] => 499
+        )
+
+    [_product_image_gallery] => Array
+        (
+            [0] => 14,13,12
+        )
+
+    [_sku] => Array
+        (
+            [0] => SKU1121
+        )
+
+    [_wc_gla_visibility] => Array
+        (
+            [0] => sync-and-show
+        )
+
+    [_stock] => Array
+        (
+            [0] => 20
+        )
+
+    [wp_order_collector_webshop8] => Array
+        (
+            [0] => yes
+        )
+
+)
+
+
+[10:44:36 - 13-09-2021] No matching product found
+
+[10:44:36 - 13-09-2021] Cross sells found
+
+[10:44:36 - 13-09-2021] crosssell id: 34
+
+[10:44:36 - 13-09-2021] Cross sell sku
+SKU1122
+
+[10:44:36 - 13-09-2021] No matching product found
+
+[10:44:36 - 13-09-2021] Trying to insert product
+Array
+(
+    [name] => FaxeKondi Booster 0,5L
+    [slug] => faxekondi-booster-05l
+    [date_created] => 2021-09-06T14:42:10
+    [date_created_gmt] => 2021-09-06T12:42:10
+    [date_modified] => 2021-09-13T12:44:31
+    [date_modified_gmt] => 2021-09-13T10:44:31
+    [type] => variable
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>50cl dåser</p>
+
+    [short_description] => 
+    [sku] => skubooster
+    [price] => 11.99
+    [regular_price] => 
+    [sale_price] => 
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 10
+    [backorders] => yes
+    [backorders_allowed] => 1
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 1
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+        )
+
+    [parent_id] => 0
+    [purchase_note] => 
+    [categories] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 220
+                    [name] => Drikkevarer
+                    [slug] => drikkevarer
+                )
+
+            [1] => Array
+                (
+                    [id] => 221
+                    [name] => Faxe Kondi
+                    [slug] => faxe-kondi
+                )
+
+        )
+
+    [tags] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 45
+                    [name] => Booster
+                    [slug] => booster
+                )
+
+            [1] => Array
+                (
+                    [id] => 44
+                    [name] => FaxeKondi
+                    [slug] => faxekondi
+                )
+
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 535
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [position] => 1
+                    [visible] => 1
+                    [variation] => 1
+                    [options] => Array
+                        (
+                            [0] => Citron
+                            [1] => Hindbær
+                            [2] => Normal
+                        )
+
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+            [0] => 323
+            [1] => 324
+            [2] => 325
+        )
+
+    [menu_order] => 0
+    [stock_status] => instock
+)
+
+
+[10:44:41 - 13-09-2021] Product created!
+
+[10:44:41 - 13-09-2021] Added attributes
+Array
+(
+    [0] => Array
+        (
+            [name] => Smag
+            [id] => 86
+        )
+
+)
+
+
+[10:44:41 - 13-09-2021] Found variations
+
+[10:44:41 - 13-09-2021] Adding variation id: 323
+
+[10:44:42 - 13-09-2021] Found variation
+Array
+(
+    [id] => 323
+    [name] => FaxeKondi Booster 0,5L - Normal
+    [slug] => faxekondi-booster-05l-normal
+    [permalink] => https://klinthansen.dk/vare/faxekondi-booster-05l/?attribute_pa_smag=normal
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-07T11:35:36
+    [date_modified_gmt] => 2021-09-07T09:35:36
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>Med normal smag</p>
+
+    [short_description] => 
+    [sku] => skubooster-normal
+    [price] => 15
+    [regular_price] => 20
+    [sale_price] => 15
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => -3
+    [backorders] => notify
+    [backorders_allowed] => 1
+    [backordered] => 1
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.5
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 322
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 328
+                    [date_created] => 2021-09-06T16:40:47
+                    [date_created_gmt] => 2021-09-06T12:40:47
+                    [date_modified] => 2021-09-06T16:40:47
+                    [date_modified_gmt] => 2021-09-06T12:40:47
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/faxe-kondi-booster-daase.jpg
+                    [name] => faxe-kondi-booster-daase
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Smag
+                    [option] => Normal
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [grouped_products] => Array
+        (
+        )
+
+    [menu_order] => 1
+    [price_html] => <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;20,00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;15,00</bdi></span></ins>
+    [related_ids] => Array
+        (
+        )
+
+    [meta_data] => Array
+        (
+        )
+
+    [stock_status] => onbackorder
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/323
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products
+                        )
+
+                )
+
+            [up] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/322
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:44:42 - 13-09-2021] attribute:
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [option] => Normal
+)
+
+
+[10:44:42 - 13-09-2021] Seraching for: Smag
+
+[10:44:42 - 13-09-2021] Found attribute: Smag
+
+[10:44:42 - 13-09-2021] Changed variation attribute: Smag
+ from id: 5 to id: 86
+
+[10:44:42 - 13-09-2021] New attribute
+Array
+(
+    [id] => 86
+    [name] => Smag
+    [option] => Normal
+)
+
+
+[10:44:42 - 13-09-2021] Variation to insert
+Array
+(
+    [name] => FaxeKondi Booster 0,5L - Normal
+    [slug] => faxekondi-booster-05l-normal
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-07T11:35:36
+    [date_modified_gmt] => 2021-09-07T09:35:36
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>Med normal smag</p>
+
+    [short_description] => 
+    [sku] => skubooster-normal
+    [price] => 15
+    [regular_price] => 20
+    [sale_price] => 15
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => -3
+    [backorders] => notify
+    [backorders_allowed] => 1
+    [backordered] => 1
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.5
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 543
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [option] => Normal
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [menu_order] => 1
+    [stock_status] => onbackorder
+    [image] => Array
+        (
+            [id] => 537
+        )
+
+)
+
+
+[10:44:48 - 13-09-2021] Adding variation id: 324
+
+[10:44:48 - 13-09-2021] Found variation
+Array
+(
+    [id] => 324
+    [name] => FaxeKondi Booster 0,5L - Citron
+    [slug] => faxekondi-booster-05l-citron
+    [permalink] => https://klinthansen.dk/vare/faxekondi-booster-05l/?attribute_pa_smag=citron
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-07T11:44:10
+    [date_modified_gmt] => 2021-09-07T09:44:10
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>med citrus smag</p>
+
+    [short_description] => 
+    [sku] => skubooster-citron
+    [price] => 11.99
+    [regular_price] => 20
+    [sale_price] => 11.99
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 7
+    [backorders] => no
+    [backorders_allowed] => 
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.5
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 322
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 326
+                    [date_created] => 2021-09-06T16:40:44
+                    [date_created_gmt] => 2021-09-06T12:40:44
+                    [date_modified] => 2021-09-06T16:40:44
+                    [date_modified_gmt] => 2021-09-06T12:40:44
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/faxe-kondi-booster-twisted-lemon.jpg
+                    [name] => faxe-kondi-booster-twisted-lemon
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Smag
+                    [option] => Citron
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [grouped_products] => Array
+        (
+        )
+
+    [menu_order] => 2
+    [price_html] => <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;20,00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;11,99</bdi></span></ins>
+    [related_ids] => Array
+        (
+        )
+
+    [meta_data] => Array
+        (
+        )
+
+    [stock_status] => instock
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/324
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products
+                        )
+
+                )
+
+            [up] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/322
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:44:49 - 13-09-2021] attribute:
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [option] => Citron
+)
+
+
+[10:44:49 - 13-09-2021] Seraching for: Smag
+
+[10:44:49 - 13-09-2021] Found attribute: Smag
+
+[10:44:49 - 13-09-2021] Changed variation attribute: Smag
+ from id: 5 to id: 86
+
+[10:44:49 - 13-09-2021] New attribute
+Array
+(
+    [id] => 86
+    [name] => Smag
+    [option] => Citron
+)
+
+
+[10:44:49 - 13-09-2021] Variation to insert
+Array
+(
+    [name] => FaxeKondi Booster 0,5L - Citron
+    [slug] => faxekondi-booster-05l-citron
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-07T11:44:10
+    [date_modified_gmt] => 2021-09-07T09:44:10
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => <p>med citrus smag</p>
+
+    [short_description] => 
+    [sku] => skubooster-citron
+    [price] => 11.99
+    [regular_price] => 20
+    [sale_price] => 11.99
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 7
+    [backorders] => no
+    [backorders_allowed] => 
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.5
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 543
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [option] => Citron
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [menu_order] => 2
+    [stock_status] => instock
+    [image] => Array
+        (
+            [id] => 539
+        )
+
+)
+
+
+[10:44:49 - 13-09-2021] Adding variation id: 325
+
+[10:44:49 - 13-09-2021] Found variation
+Array
+(
+    [id] => 325
+    [name] => FaxeKondi Booster 0,5L - Hindbær
+    [slug] => faxekondi-booster-05l-hindbaer
+    [permalink] => https://klinthansen.dk/vare/faxekondi-booster-05l/?attribute_pa_smag=hindbaer
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-08T12:44:13
+    [date_modified_gmt] => 2021-09-08T10:44:13
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => 
+    [short_description] => 
+    [sku] => skubooster-hindbær
+    [price] => 15
+    [regular_price] => 20
+    [sale_price] => 15
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 17
+    [backorders] => no
+    [backorders_allowed] => 
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.3
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 322
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 327
+                    [date_created] => 2021-09-06T16:40:44
+                    [date_created_gmt] => 2021-09-06T12:40:44
+                    [date_modified] => 2021-09-06T16:40:44
+                    [date_modified_gmt] => 2021-09-06T12:40:44
+                    [src] => https://klinthansen.dk/wp-content/uploads/2021/09/IMG_0283.jpg
+                    [name] => IMG_0283
+                    [alt] => 
+                )
+
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 5
+                    [name] => Smag
+                    [option] => Hindbær
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [grouped_products] => Array
+        (
+        )
+
+    [menu_order] => 3
+    [price_html] => <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;20,00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">DKK</span>&nbsp;15,00</bdi></span></ins>
+    [related_ids] => Array
+        (
+        )
+
+    [meta_data] => Array
+        (
+        )
+
+    [stock_status] => instock
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/325
+                        )
+
+                )
+
+            [collection] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products
+                        )
+
+                )
+
+            [up] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://klinthansen.dk/wp-json/wc/v3/products/322
+                        )
+
+                )
+
+        )
+
+)
+
+
+[10:44:50 - 13-09-2021] attribute:
+Array
+(
+    [id] => 5
+    [name] => Smag
+    [option] => Hindbær
+)
+
+
+[10:44:50 - 13-09-2021] Seraching for: Smag
+
+[10:44:50 - 13-09-2021] Found attribute: Smag
+
+[10:44:50 - 13-09-2021] Changed variation attribute: Smag
+ from id: 5 to id: 86
+
+[10:44:50 - 13-09-2021] New attribute
+Array
+(
+    [id] => 86
+    [name] => Smag
+    [option] => Hindbær
+)
+
+
+[10:44:50 - 13-09-2021] Variation to insert
+Array
+(
+    [name] => FaxeKondi Booster 0,5L - Hindbær
+    [slug] => faxekondi-booster-05l-hindbaer
+    [date_created] => 2021-09-06T14:36:55
+    [date_created_gmt] => 2021-09-06T12:36:55
+    [date_modified] => 2021-09-08T12:44:13
+    [date_modified_gmt] => 2021-09-08T10:44:13
+    [type] => variation
+    [status] => publish
+    [featured] => 
+    [catalog_visibility] => visible
+    [description] => 
+    [short_description] => 
+    [sku] => skubooster-hindbær
+    [price] => 15
+    [regular_price] => 20
+    [sale_price] => 15
+    [date_on_sale_from] => 
+    [date_on_sale_from_gmt] => 
+    [date_on_sale_to] => 
+    [date_on_sale_to_gmt] => 
+    [on_sale] => 1
+    [purchasable] => 1
+    [total_sales] => 0
+    [virtual] => 
+    [downloadable] => 
+    [downloads] => Array
+        (
+        )
+
+    [download_limit] => -1
+    [download_expiry] => -1
+    [external_url] => 
+    [button_text] => 
+    [tax_status] => taxable
+    [tax_class] => 
+    [manage_stock] => 1
+    [stock_quantity] => 17
+    [backorders] => no
+    [backorders_allowed] => 
+    [backordered] => 
+    [low_stock_amount] => 
+    [sold_individually] => 
+    [weight] => 0.3
+    [dimensions] => Array
+        (
+            [length] => 
+            [width] => 
+            [height] => 
+        )
+
+    [shipping_required] => 1
+    [shipping_taxable] => 1
+    [shipping_class] => 
+    [shipping_class_id] => 0
+    [reviews_allowed] => 
+    [average_rating] => 0.00
+    [rating_count] => 0
+    [upsell_ids] => Array
+        (
+        )
+
+    [cross_sell_ids] => Array
+        (
+            [0] => 34
+        )
+
+    [parent_id] => 543
+    [purchase_note] => 
+    [categories] => Array
+        (
+        )
+
+    [tags] => Array
+        (
+        )
+
+    [attributes] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 86
+                    [name] => Smag
+                    [option] => Hindbær
+                )
+
+        )
+
+    [default_attributes] => Array
+        (
+        )
+
+    [variations] => Array
+        (
+        )
+
+    [menu_order] => 3
+    [stock_status] => instock
+    [image] => Array
+        (
+            [id] => 541
+        )
+
+)
+
+
+[10:44:50 - 13-09-2021] All variations
+Array
+(
+    [0] => Array
+        (
+            [0] => 543
+        )
+
+    [1] => Array
+        (
+            [0] => 544
+        )
+
+    [2] => Array
+        (
+            [0] => 545
+        )
+
+    [3] => Array
+        (
+            [0] => 546
+        )
+
+)
+
+
+[10:44:51 - 13-09-2021] Generating field for id: 
+8
+
+[10:44:51 - 13-09-2021] Generating field for id: 
+9
+
+[10:44:51 - 13-09-2021] Generating field for id: 
+14
+
+[10:44:51 - 13-09-2021] Generating field for id: 
+15
+
+[10:44:51 - 13-09-2021] Generating field for id: 
+16
+
+[10:44:51 - 13-09-2021] Generating field for id: 
+17
+

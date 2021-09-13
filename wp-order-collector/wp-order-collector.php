@@ -13,10 +13,10 @@ Text Domain: wp-order-collector
 */
 require __DIR__ . '/vendor/autoload.php';
 
-add_action( 'wp_enqueue_scripts', 'wp_order_collector_assets' );
+add_action( 'admin_enqueue_scripts', 'wp_order_collector_assets');
 function wp_order_collector_assets() 
 {
-    wp_enqueue_style( "wp_order_collector_stylesheet", plugins_url( "wp_order_collector_stylesheet.css", __FILE__ ));
+    wp_enqueue_style( "wp_order_collector_stylesheet",  plugin_dir_url(__FILE__) . "/wp_order_collector_stylesheet.css");
 }
 
 use Automattic\WooCommerce\Client;
@@ -400,7 +400,8 @@ function wp_order_collector_get_client_from_identifier(string $identifier)
         "$consumer_secret",
         [
             'wp_api' => true,
-            'version' => 'wc/v3'
+            'version' => 'wc/v3',
+            'timeout' => 400
         ]
     );
     return $client;
@@ -426,7 +427,8 @@ function wp_order_collector_get_client_from_id(int $id)
         "$consumer_secret",
         [
             'wp_api' => true,
-            'version' => 'wc/v3'
+            'version' => 'wc/v3',
+            'timeout' => 400
         ]
     );
     return $client;
@@ -445,39 +447,39 @@ function wp_order_collector_update_stock_from_sku($product_sku, $quantity)
 
     $product = $wp_order_collector_master_client->get($endpoint);
     $decoded_product = json_decode(json_encode($product), true);
-
-    custom_log("Product with sku found", $decoded_product);
-
-    $current_stock = $decoded_product[0]['stock_quantity'];
-    $backorders_allowed = $decoded_product[0]['backorders_allowed'];
-    $product_id = $decoded_product[0]['id'];
-
-    custom_log("Current stock", $current_stock);
-    custom_log("Backorders allowed", $backorders_allowed);
-
-    if((is_int($current_stock) AND $current_stock > 0) OR ($current_stock <= 0 AND isset($backorders_allowed)))
+    if(!empty($decoded_product))
     {
-        $new_stock = $current_stock - $quantity;
-
-        custom_log("Updating stock,\n current: " . $current_stock . "\norder quantity: " . $quantity . "\nNew stock: " . $new_stock);
-
-        $data = [
-            'stock_quantity' => $new_stock
-        ];
+        custom_log("Product with sku found", $decoded_product);
+        
+        $current_stock = $decoded_product[0]['stock_quantity'];
+        $backorders_allowed = $decoded_product[0]['backorders_allowed'];
+        $product_id = $decoded_product[0]['id'];
+        
+        custom_log("Current stock", $current_stock);
+        custom_log("Backorders allowed", $backorders_allowed);
+        
+        if((is_int($current_stock) AND $current_stock > 0) OR ($current_stock <= 0 AND isset($backorders_allowed)))
+        {
+            $new_stock = $current_stock - $quantity;
+            
+            custom_log("Updating stock,\n current: " . $current_stock . "\norder quantity: " . $quantity . "\nNew stock: " . $new_stock);
+            
+            $data = [
+                'stock_quantity' => $new_stock
+            ];
+        }
+        else
+        {
+            $data = [
+                'stock_quantity' => 0
+            ];
+        }
+        
+        $endpoint = 'products/' . $product_id;
+        custom_log("Trying to insert into $endpoint", $data);
+        wc_update_product_stock( $product_id, $new_stock);
+        Custom_log("updated product", $wp_order_collector_master_client->get($endpoint) );
     }
-    else
-    {
-        $data = [
-            'stock_quantity' => 0
-        ];
-    }
-
-    $endpoint = 'products/' . $product_id;
-    custom_log("Trying to insert into $endpoint", $data);
-    wc_update_product_stock( $product_id, $new_stock);
-    Custom_log("updated product", $wp_order_collector_master_client->get($endpoint) );
-    //$updated_product = wc_sanitize_response($updated_product);
-    //custom_log("Product updated with quantity", $updated_product);
 }
 
 add_action( 'woocommerce_process_product_meta', 'wp_order_collector_create_new_product',1000,2 );
@@ -541,10 +543,39 @@ function wp_order_collector_create_new_product($post_id, $post)
             ));
             if(count($exists) == 0) //Checks if a product is already created
             {
-
-                for($i = 0; $i < count($data['images']); $i++) //Removes id's from images to avoid hitting a image with same id
+                foreach($data['images'] as $image_key => $image)
                 {
-                    unset($data['images'][$i]['id']);
+                    $image_array = explode('/', $image['src']);
+                    $image_file = $image_array[count($image_array) - 1];
+                    custom_log("Searching for image", $image_file);
+                    $image_found = wc_sanitize_response($wp_order_collector_clients_to_alter[$x]->get("images/image=" . $image_file));
+
+                    if(count($image_found) > 0)
+                    {
+                        custom_log("Found image", $image_found);
+                        $data['images'][$image_key]['id'] = $image_found['id'];
+                        $data['images'][$image_key] = wp_order_collector_remove_tags($data['images'][$image_key], [
+                            'date_created',
+                            'date_created_gmt',
+                            'date_modified',
+                            'date_modified_gmt',
+                            'src',
+                            'name',
+                            'alt'
+                        ]);
+                        custom_log("Image formatted", $data['images'][$image_key]);
+                    }
+                    else
+                    {
+                        custom_log("Image not found");
+                        $data['images'][$image_key] = wp_order_collector_remove_tags($data['images'][$image_key], [
+                            'date_created',
+                            'date_created_gmt',
+                            'date_modified',
+                            'date_modified_gmt',
+                            'id'
+                        ]);
+                    }
                 }
             }
             else{ //If it is created, no description, images or titles should be changed.
@@ -738,133 +769,197 @@ function wp_order_collector_create_new_product($post_id, $post)
             //Check if the product contains any categories
             if(!empty($data['categories']))
             {
-                custom_log("Product contains categories");
-                $all_categories = $wp_order_collector_clients_to_alter[$x]->get("products/categories");
-                $all_categories = json_decode(json_encode($all_categories), true);
+                $category_ids = [];
+                $categories_to_add = [];
+                $categories_dictionary = [];
+                $master_categories = wp_order_collector_get_categories_from_product(wc_get_product($post_id)); //Fetches all categories associated with the product
+                $client_categories = $wp_order_collector_clients_to_alter[$x]->get("products/categories"); //Fetches all client categories
+                $client_categories = wc_sanitize_response($client_categories);
 
-                foreach($data['categories'] as $category_key => $category_value)
+                //Loops through all categories to check for missing categories in client
+                foreach($master_categories as $master_categories_key => $master_categories_value)
                 {
-                    $found_category = [];
-                    custom_log("Looking for category: " . $category_value['name']);
-                    foreach($all_categories as $all_categories_key => $all_categories_value)
-                    {
-                        if($category_value['slug'] == $all_categories_value['slug'])
-                        {
-                                $found_category = $all_categories_value;
-                        }
-                    }
+                    //Create dictionary array for category
+                    $categories_dictionary[$master_categories_value['term_id']] = [
+                        $master_categories_value['slug'] => 'slug',
+                        $master_categories_value['parent'] => 'old_parent',
+                        $master_categories_value['term_id'] => 'old_id'
+                    ];
+                    custom_log("Searching for category: " . $master_categories_value['slug']);
+                    //Check if category exsist
+                    /*
+                    $found_category = array_search($master_categories_value['slug'], array_column($client_categories, 'slug'));
+                    custom_log("Categories in client", $client_categories);
                     if(!empty($found_category))
                     {
-                        custom_log("Found category: " . $found_category['name']);
-                        custom_log("Changing category id from: " . $data['categories'][$category_key]['id'] . "-> " . $found_category['id']);
-                        $data['categories'][$category_key]['id'] = $found_category['id'];
+                        //if category exists find and extract slug and id and insert into the dictionary
+                        foreach($client_categories as $client_categories_key => $client_categories_value)
+                        {
+                            if($client_categories_value['slug'] == $master_categories_value['slug'])
+                            {
+                                custom_log("Found category: ",$client_categories_value);
+                                $categories_dictionary[$master_categories_value['term_id']][$client_categories_value['id']] = 'new_id';
+                                break;
+                            }
+                        }
+                    }
+                    */
+
+                    $found_category = false;
+                    //if category exists find and extract slug and id and insert into the dictionary
+                    foreach($client_categories as $client_categories_key => $client_categories_value)
+                    {
+                        if($client_categories_value['slug'] == $master_categories_value['slug'])
+                        {
+                            custom_log("Found category: ",$client_categories_value);
+                            $categories_dictionary[$master_categories_value['term_id']][$client_categories_value['id']] = 'new_id';
+                            $found_category = true;
+                            break;
+                        }
+                    }
+
+                    if(!$found_category)
+                    {
+                        //if category don't exist add to create array
+                        custom_log("Category not found");
+                        array_push($categories_to_add, [
+                            'slug' => $master_categories_value['slug'],
+                            'name' => $master_categories_value['name']
+                        ]);
+                        $categories_dictionary[$master_categories_value['term_id']] = [
+                            $master_categories_value['slug'] => 'slug',
+                            $master_categories_value['parent'] => 'old_parent',
+                            $master_categories_value['term_id'] => 'old_id'
+                        ];
+                    }
+                }
+
+                //If anyone where missing add them now
+                if(!empty($categories_to_add))
+                {
+                    $inserted_categories = wc_sanitize_response($wp_order_collector_clients_to_alter[$x]->post("products/categories/batch", [
+                        'create' => $categories_to_add
+                    ]));
+
+                    //loops through inserted categories to add to list
+                    foreach($inserted_categories['create'] as $inserted_categories_key => $inserted_categories_value)
+                    {
+                        foreach($master_categories as $master_categories_key => $master_categories_value)
+                        {
+                            custom_log("Master category", $master_categories_value);
+                            custom_log("Inserted category", $inserted_categories_value);
+                            if($master_categories_value['slug'] == $inserted_categories_value['slug'])
+                            {
+                                $categories_dictionary[$master_categories_value['term_id']][$inserted_categories_value['id']] = 'new_id';
+                            }
+                        }
+                    }
+                }
+
+                custom_log("Product before categories", $data);
+
+                //Loop through all added categories and corrects their parent
+                $update_parents = [];
+                foreach($master_categories as $master_categories_key => $master_categories_value)
+                {
+                    custom_log("category value", $master_categories_value);
+                    //Gets the new parent id
+                    foreach($categories_dictionary as $categories_dictionary_key => $categories_dictionary_value)
+                    {
+                        if($master_categories_value['parent'] == array_search('old_parent', $categories_dictionary_value))
+                        {
+                            $parent_id = 0;
+                            if($categories_dictionary[$master_categories_value['parent']])
+                            {
+                                $parent_id = array_search('new_id', $categories_dictionary[$master_categories_value['parent']]);
+                            }
+                            array_push($update_parents, [
+                                'id' => array_search('new_id', $categories_dictionary_value),
+                                'parent' => $parent_id
+                            ]);
+                            
+                            array_push($category_ids, array_search('new_id', $categories_dictionary_value));
+                        }
+                        foreach($data['categories'] as $category_key => $category_value)
+                        {
+                            if($category_value['id'] == array_search('old_id', $categories_dictionary_value))
+                            {
+                                $new_category_id = (int)array_search('new_id', $categories_dictionary_value);
+                                $data['categories'][$category_key]['id'] = $new_category_id;
+                            }
+                        }
+                    }
+                }
+                custom_log("Category dictionary", $categories_dictionary);
+                custom_log("Update array", $update_parents);
+
+                if(!empty($update_parents))
+                {
+                    custom_log("Updating parent ids", $update_parents);
+                    $wp_order_collector_clients_to_alter[$x]->post("products/categories/batch", [
+                        'update' => $update_parents
+                    ]);
+                }
+            }
+
+            //Checks if upsells are attached
+            if(count($data['upsell_ids']) > 0)
+            {
+                $upsell_array = [];
+                custom_log("Upsells found");
+                foreach($data['upsell_ids'] as $upsell_key => $upsell_value)
+                {
+                    custom_log("upsell id: " . $upsell_value);
+                    //Start by checking if the product exists on client site
+                    $master_upsell = wc_get_product($upsell_value); //Gets the product from master
+                    custom_log("Cross sell sku", $master_upsell->get_sku());
+                    $client_upsell = $wp_order_collector_clients_to_alter[$x]->get("products?sku=" . (string)$master_upsell->get_sku());
+                    custom_log("Client upsell", $client_upsell);
+                    custom_log("Master meta data", get_post_meta($master_upsell->get_id()));
+                    $client_upsell = wc_sanitize_response($client_upsell);
+                    if(count($client_upsell) > 0) //Checks if the array returned is empty, if it exists get the id.
+                    {
+                        array_push($upsell_array, $client_upsell[0]['id']);
+                        custom_log("upsell id changed: " . $upsell_value . " => " . $client_upsell[0]['id']);
                     }
                     else
                     {
-                        custom_log("No category found, adding a new one");
-                        custom_log("Looking for category id " . $category_value['id']);
-                            
-                        //logic to loop through categories
-                        $category_array = []; //Array for categories to be put in
-                            
-                        //Gets all categories to avoid multiple api calls
-                        $all_master_categories = wc_sanitize_response($wp_order_collector_master_client->get("products/categories")); 
-                            
-                        //Counts 0 as empty
-                        $category_search_id = $category_value['id'];
-                        while(!empty($category_search_id))
-                        {
-                            //Looping through nestet categories
-                            foreach($all_master_categories as $all_master_categories_key => $all_master_categories_value)
-                            {
-                                if($all_master_categories_value['id'] == $category_search_id)
-                                {
-                                    $temp_category = wp_order_collector_remove_tags($all_master_categories[$all_master_categories_key], [ //removing unnessecary tags
-                                        '_links',
-                                        'count'
-                                    ]);
-                                    array_unshift($category_array, $temp_category);
-                                    custom_log("Category found with parent id: " . $all_master_categories_value['parent'], $all_master_categories_value);
-                                    $category_search_id = $all_master_categories_value['parent']; //Setting the search id for parent
-                                }
-                            }
-                        }
-                        $last_inserted_category;
-                        //Inserts the category with the parent first
-                        foreach($category_array as $category_array_key => $category_array_value) //array of found category with all of its parent categories.
-                        {
-                            //If empty, it has no parent
-                            if(empty($last_inserted_category))
-                            {
-                                custom_log("Category has no parent: " . $category_array_value['name']);
-                                $array_search_result = [];
-                                foreach($all_categories as $all_categories_key => $all_categories_value) //Search for the slug in all the client categories
-                                {
-                                    if($category_array_value['slug'] == $all_categories_value['slug']) //if category is found, set the variable and break the loop.
-                                    {
-                                        $array_search_result = $all_categories_value;
-                                        break; //breaks out of foreach loop
-                                    }
-                                }
-                                if(!empty($array_search_result)) //Checks if there is a result, and set the result if found
-                                {
-                                        $last_inserted_category = $array_search_result;
-                                        custom_log("Found category already in client: " . $array_search_result['name'], $array_search_result);
-                                }
-                               else //If the weren't any results, add the category.
-                                {
-                                    $category_array_value = wp_order_collector_remove_tags($category_array_value, ['id', 'parent']);
-                                    $last_inserted_category = wc_sanitize_response($wp_order_collector_clients_to_alter[$x]->post('products/categories', $category_array_value));
-                                    custom_log("Added new category to client: " . $last_inserted_category['name'], $last_inserted_category);
-                                }
-                            }
-                            else //Has parent, needs parent id from previous inserted category.
-                            {
-                                custom_log("Category has parent: ". $category_array_value['name'] . " -> " . $last_inserted_category['name']);
-
-                                $array_search_result = [];
-                                custom_log("Searching for category: " . $category_array_value['name'], $category_array_value);
-                                foreach($all_categories as $all_categories_key => $all_categories_value) //Search for the slug in all the client categories
-                                {
-                                    if($category_array_value['slug'] == $all_categories_value['slug']) //if category is found, set the variable and break the loop.
-                                    {
-                                        $array_search_result = $all_categories_value;
-                                        custom_log("Result found", $array_search_result);
-                                        break;
-                                    }
-                                }
-
-                                if(!empty($array_search_result)) //Checks if there is a result, and set the result if found
-                                {
-                                    custom_log("Found category already in client: " . $array_search_result['name'], $array_search_result);
-                                    $category_array[$category_array_key]['id'] = $array_search_result['id'];
-                                    $category_array[$category_array_key]['parent'] = $last_inserted_category['id'];
-                                    $last_inserted_category = $array_search_result;
-
-                                }
-                                else //If the weren't any results, add the category.
-                                {
-                                    
-                                    $category_array_value = wp_order_collector_remove_tags($category_array_value, ['id']); //Removes its id
-                                    $category_array_value['parent'] = $last_inserted_category['id']; //Sets it's parent id to last inserted category
-                                    
-                                    custom_log("Trying to insert category", $category_array_value);
-
-                                    $inserted_category = wc_sanitize_response($wp_order_collector_clients_to_alter[$x]->post('products/categories', $category_array_value));
-                                    custom_log("Sucessfully inserted category: " . $inserted_category['name'], $inserted_category);
-                                    $last_inserted_category = $inserted_category;
-                                }
-                            }
-                        }
-                        custom_log("Changed category id from: ". $data['categories'][$category_key]['id'] . " -> " . $last_inserted_category['id']);
-                        $data['categories'][$category_key]['id'] = $last_inserted_category['id']; //Sets the category id to the last inserted category (first found in category_array)
+                        custom_log("No matching product found");
                     }
                 }
+                $data['upsell_ids'] = $upsell_array;
+            }
+            
+            //Checks if cross sells are attached
+            if(count($data['cross_sell_ids']) > 0)
+            {
+                $crosssell_array = [];
+                custom_log("Cross sells found");
+                foreach($data['cross_sell_ids'] as $crosssell_key => $crosssell_value)
+                {
+                    custom_log("crosssell id: " . $crosssell_value);
+                    //Start by checking if the product exists on client site
+                    $master_crosssell = wc_get_product($crosssell_value); //Gets the product from master
+                    custom_log("Cross sell sku", $master_crosssell->get_sku());
+                    $client_crosssell = $wp_order_collector_clients_to_alter[$x]->get("products?sku=" . $master_crosssell->get_sku());
+                    $client_crosssell = wc_sanitize_response($client_crosssell);
+                    if(!empty($client_crosssell)) //Checks if the array returned is empty, if it exists get the id.
+                    {
+                        array_push($crosssell_array, $client_crosssell[0]['id']);
+                        custom_log("crosssell id changed: " . $crosssell_value . " => " . $client_crosssell[0]['id']);
+                    }
+                    else
+                    {
+                        custom_log("No matching product found");
+                    }
+                }
+                $data['cross_sell_ids'] = $crosssell_array;
             }
 
             //Posts the product to the client
             if(count($exists) == 0)
             {
+                custom_log("Trying to insert product", $data);
                 $inserted_product = $wp_order_collector_clients_to_alter[$x]->post('products', $data);
                 $inserted_product = json_decode(json_encode($inserted_product), true);
                 custom_log("Product created!");
@@ -872,6 +967,7 @@ function wp_order_collector_create_new_product($post_id, $post)
             else{ //retrieve product and update it
                 $exists = wc_sanitize_response($exists);
                 custom_log("Exists product", $exists);
+                custom_log("updated product", $data);
                 $inserted_product = $wp_order_collector_clients_to_alter[$x]->put('products/' . $exists[0]['id'], $data);
                 $inserted_product = json_decode(json_encode($inserted_product), true);
                 custom_log("Product updated!");
@@ -897,6 +993,7 @@ function wp_order_collector_create_new_product($post_id, $post)
                     custom_log("Adding variation id: $variation");
                     $full_variation = $wp_order_collector_master_client->get("products/$variation");
                     $full_variation = json_decode(json_encode($full_variation), true);
+                    custom_log("Found variation", $full_variation);
                     $variation_exists = false;
 
                     //Check if variation exists
@@ -908,7 +1005,7 @@ function wp_order_collector_create_new_product($post_id, $post)
                             {
                                 if($_variation_exists_value['sku'] == $full_variation['sku']) //If a matching SKU is found, update variation instead.
                                 {
-                                    $full_variation = $_variation_exists_value;
+                                    $full_variation['id'] = $_variation_exists_value['id'];
                                     $variation_exists = true;
                                 }
                             }
@@ -930,13 +1027,11 @@ function wp_order_collector_create_new_product($post_id, $post)
                         $data = wp_order_collector_remove_tags($data, array(
                             'name',
                             'slug',
-                            'images',
                             'short_description',
                             'description',
                             'date_created_gmt',
                             'date_created',
                             'parent_id',
-                            'manage_stock'
                         ));
                         
                     }
@@ -944,13 +1039,38 @@ function wp_order_collector_create_new_product($post_id, $post)
                     {
                         $full_variation['parent_id'] = $inserted_product['id'];
                         $full_variation['manage_stock'] = true;
-                        for($i = 0; $i < count($full_variation['images']); $i++) //Removes id's from images to avoid hitting a image with same id
-                        {
-                            unset($full_variation['images'][$i]['id']);
-                        }
                     }
-                
+
+                    //  Variations can only contain one image, and aren't formated correctly when recieved from API.
+                    //  An array of images are recieved, but it only accepts one image.
+
+                    //Sets variation image
+                    $image = $full_variation['images']; //Gets the array of images
+
+                    $image_array = explode('/', $image[0]['src']);
+                    $image_file = $image_array[count($image_array) - 1];
+                    $image_found = wc_sanitize_response($wp_order_collector_clients_to_alter[$x]->get("images/image=" . $image_file));
                     
+                    $new_image = [];
+                    if(count($image_found) > 0)
+                    {
+                        $new_image = [
+                            'id' => $image_found['id']
+                        ];
+                    }
+                    else
+                    {
+                        $new_image = [
+                            'src' => $image[0]['src'],
+                            'alt' => $image[0]['alt'],
+                            'name' => $image[0]['name']
+                        ];
+                    }
+                    unset($full_variation['images']); //Removes the key from variation
+                    //Replaces the image array with a single image
+                    //NOTICE: when recieved the key is 'images' but it accepts 'image' singular
+                    //If no images were found, WooCommerce will automaticly take the products image
+                    $full_variation['image'] = $new_image;
                     
                     foreach($full_variation['attributes'] as $attribute_key => $attributes)
                     {
@@ -976,11 +1096,11 @@ function wp_order_collector_create_new_product($post_id, $post)
                     //Checks if the variation contains any shipping class
                     wp_order_collector_check_for_shipping_class($wp_order_collector_clients_to_alter[$x], $full_variation);
                     
-                    if(!empty($variation_exists))
+                    if($variation_exists)
                     {
                         custom_log("Updated variation", $full_variation);
-                        $full_variation['regular_price'] = (string)$full_variation['regular_price']; //explicit conversion, since it has to be a string, and it is turned into int automaticly.
-                        $full_variation['sale_price'] = (string)$full_variation['sale_price'];
+                        //$full_variation['regular_price'] = (string)$full_variation['regular_price']; //explicit conversion, since it has to be a string, and it is turned into int automaticly.
+                        //$full_variation['sale_price'] = (string)$full_variation['sale_price'];
                         $wp_order_collector_clients_to_alter[$x]->put('products/' . $inserted_product['id'] .'/variations/' . $full_variation_id, $full_variation);
                         array_push($all_variations, [$full_variation_id]);
                     }
@@ -1001,70 +1121,40 @@ function wp_order_collector_create_new_product($post_id, $post)
                 ];
                 
                 $wp_order_collector_clients_to_alter[$x]->put("products/" . $inserted_product['id'], $new_data);
+        }
+    }   
+}
 
-                if(!empty($data['upsell_ids']) || !empty($data['cross_sell_ids']))
-                {
-                    $upsell_array = [];
-                    //Checks if upsells are attached
-                    if(!empty($data['upsell_ids']))
-                    {
-                        custom_log("Upsells found");
-                        foreach($data['upsell_ids'] as $upsell_key => $upsell_value)
-                        {
-                            custom_log("upsell id: " . $upsell_value);
-                            //Start by checking if the product exists on client site
-                            $master_upsell = wc_get_product($upsell_value); //Gets the product from master
-                            custom_log("Cross sell sku", $master_upsell->get_sku());
-                            $client_upsell = $wp_order_collector_clients_to_alter[$x]->get("products?sku=" . (string)$master_upsell->get_sku());
-                            custom_log("Client upsell", $client_upsell);
-                            custom_log("Master meta data", get_post_meta($master_upsell->get_id()));
-                            $client_upsell = wc_sanitize_response($client_upsell);
-                            if(count($client_upsell) > 0) //Checks if the array returned is empty, if it exists get the id.
-                            {
-                                array_push($upsell_array, $client_upsell[0]['id']);
-                                custom_log("upsell id changed: " . $upsell_value . " => " . $client_upsell[0]['id']);
-                            }
-                            else
-                            {
-                                custom_log("No matching product found");
-                            }
-                        }
-                    }
-                    
-                //Checks if cross sells are attached
-                $crosssell_array = [];
-                if(count($data['cross_sell_ids']) > 0)
-                {
-                    custom_log("Cross sells found");
-                    foreach($data['cross_sell_ids'] as $crosssell_key => $crosssell_value)
-                    {
-                        custom_log("crosssell id: " . $crosssell_value);
-                        //Start by checking if the product exists on client site
-                        $master_crosssell = wc_get_product($crosssell_value); //Gets the product from master
-                        custom_log("Cross sell sku", $master_crosssell->get_sku());
-                        $client_crosssell = $wp_order_collector_clients_to_alter[$x]->get("products?sku=" . $master_crosssell->get_sku());
-                        $client_crosssell = wc_sanitize_response($client_crosssell);
-                        if(!empty($client_crosssell)) //Checks if the array returned is empty, if it exists get the id.
-                        {
-                            array_push($crosssell_array, $client_crosssell[0]['id']);
-                            custom_log("crosssell id changed: " . $crosssell_value . " => " . $client_crosssell[0]['id']);
-                        }
-                        else
-                        {
-                            custom_log("No matching product found");
-                        }
-                    }
-                }
+//Functions takes a WC_Product and returns all the categories in an array
+function wp_order_collector_get_categories_from_product(WC_Product $product)
+{
+    $category_ids = $product->get_category_ids();
+    $categories = [];
+    foreach($category_ids as $category_ids_key => $category_ids_value) //Loops through the ids and fetches the categories
+    {
+        array_push($categories, get_term_by('id', $category_ids_value, 'product_cat')); //Uses 'product_cat' to search in categories
+    }
+
+    //Loops through all categories and check for their parrents
+    foreach($categories as $categories_key => $categories_value)
+    {
+        if($categories_value->parent != 0) //Checks if the category has any parrent
+        {
+            $parent_id = $categories_value->parent; //Sets the parent id
+            while($parent_id != 0)
+            {
+                $parent_category = get_term_by('id', $parent_id, 'product_cat');
+                array_push($categories, $parent_category);
+                $parent_id = $parent_category->parent;
+
             }
-            $new_data = [
-                'cross_sell_ids' => $crosssell_array,
-                'upsell_ids' => $upsell_array
-            ];
-            
-            $wp_order_collector_clients_to_alter[$x]->put('products/' . $exists[0]['id'], $new_data);
         }
-        }
-        
+    }
+    //Checks for duplicates and return a new array without any duplicates
+    $categories = wc_sanitize_response($categories); 
+    $categories = array_unique($categories, SORT_REGULAR);
+
+    return $categories;
 }
 
 function wp_order_collector_remove_tags($array, $tags)
@@ -1194,12 +1284,12 @@ function wp_order_collector_product_custom_fields()
     foreach($clients as $clients_key => $clients_value)
     {
         custom_log("Generating field for id: ", $clients_value['id']);
-        $values = get_post_meta( $post->ID, "wp_order_collector_webshop" . $clients_value['id']);
+        //$values = get_post_meta( $post->ID, "wp_order_collector_webshop" . $clients_value['id']);
         woocommerce_wp_checkbox(
             array(
                 'id'            => 'wp_order_collector_webshop' . $clients_value['id'],
                 'label'         => __($clients_value['website'], 'woocommerce'),
-                'value'         => $values[0]
+                'value'         => '0'
             )
         );
     }
